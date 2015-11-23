@@ -1,0 +1,21 @@
+#one {
+  width: 500px;
+  height: 150px;
+  background-color: magenta;
+  margin: 20px;
+  display: none;
+}
+
+#two {
+  width: 500px;
+  height: 150px;
+  background-color: blue;
+  margin: 20px;
+}
+
+#three {
+  width: 500px;
+  height: 150px;
+  background-color: slateblue;
+  margin: 20px;
+}

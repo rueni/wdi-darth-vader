@@ -1,0 +1,46 @@
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  height: 8em;
+  width: 8em;
+  font-weight: bold;
+  border-radius: 3px;
+  font-size: 1rem;
+  color: white;
+  background: red;
+}
+
+#whoIsNext {
+  margin-top: 2em;
+  height: 1em;
+  width: 12em;
+  background-color: blue;
+  border-radius: 20px;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+/*table {
+  border: 1px solid black;
+}*/
+
+.winner_lines {
+  height: 1em;
+  width: 12em;
+  background-color: black;
+}
+
+#oneToThree {
+  
+}

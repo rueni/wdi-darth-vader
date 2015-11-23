@@ -1,0 +1,79 @@
+body {
+  font-family: "Verdana", "Arial", sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(city1.jpeg);
+  background-size: cover;
+}
+
+ #wrapper {
+  width: 95%;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: blue;
+  margin-bottom: 15px;
+  height: 70px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#imageOne {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+
+button {
+  width: 30%;
+  border: 2px solid blue;
+  background-color: white;
+  font-size: 1.5rem;
+  margin: 1%;
+  padding: 1%;
+}
+section {
+  background-color: rgba(255,255,255,.7);
+  margin: 0 1% 0 1%;
+  width: 20%;
+  height: 550px;
+  float: left;
+  align-content: center;
+}
+
+aside {
+  background-color: rgba(255,255,255,.7);
+  margin: 0 1% 0 1%;
+  width: 76%;
+  height: 550px;
+  float: right;
+  align-content: center;
+}
+
+footer {
+  clear: both;
+  background-color: blue;
+  margin-top: 15px;
+  height: 80px;
+}

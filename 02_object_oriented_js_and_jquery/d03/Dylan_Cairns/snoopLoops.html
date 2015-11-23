@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+	var grimes = ['oblivion', 'genesis', 'vowels = space and time', 'infinite love without fulfillment', 'REALiTi']; 
+	for (var i = 0; i < grimes.length; i++) {
+		document.write(grimes[i] + " - "); 
+	}
+
+	for (var tracks in grimes) {
+		document.write(grimes[tracks] + " - "); 
+	}
+
+ 	/* ------ FizzBuzz ------- */ 
+	var fizzBuzz = [3, 5, 10, 12, 15, 16, 17, 20]; 
+
+	for (num in fizzBuzz) {
+		if (fizzBuzz[num] % 15 === 0) {
+			console.log('fizzBuzz : ' + fizzBuzz[num]);
+		} else if (fizzBuzz[num] % 3 === 0) {
+			console.log('Buzz : ' + fizzBuzz[num]); 
+		} else if (fizzBuzz[num] % 5 === 0) {
+			console.log('Fizz : ' + fizzBuzz[num]); 
+		} else {
+			console.log(fizzBuzz[num]);
+		}	
+	}
+	</script>
+</body>
+</html>

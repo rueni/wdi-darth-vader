@@ -1,0 +1,50 @@
+## Videos
+- **Week One**
+  - *Git/Github*: https://www.youtube.com/watch?v=qrhHUCuXZQ8
+  - *Javascript 101 Recap*: https://www.youtube.com/watch?v=t4LIhj9hHTk
+- **Week Two**
+  - *HTML/CSS Layout*: https://www.youtube.com/watch?v=luy0p-auBR4
+  - *Javascript Constructors:* https://www.youtube.com/watch?v=syKJB0fLCZo
+  - *Using Markdown*: https://www.youtube.com/watch?v=iN4fe47whTo
+  - *Vanilla JS vs jQuery*: https://www.youtube.com/watch?v=eTnIoBGbi1g
+  - *Creating a jQuery Boilerplate*: https://www.youtube.com/watch?v=c-LgZIU50nc
+- **Week Three**
+  - *Ajax with getJSON*: https://www.youtube.com/watch?v=dIdrhawUe6k
+- **Week Four**
+  - *Creating a server with Sinatra*: https://www.youtube.com/watch?v=widEhE6zOOA
+  - *Ruby, Again*: https://youtu.be/EOI8TF4-OGQ
+  - *Sinata with JSON APIs*: https://youtu.be/-xlllpoDcjY
+  - *Sinatra with ERB Views*: https://youtu.be/7OXcQBDdWt0
+  - *404 with Sinatra*: https://www.youtube.com/watch?v=0dfQUzZx01Q
+- **Week Five**
+  - *Models and CRUD with ActiveRecord*: https://www.youtube.com/watch?v=bhrOe3hbAoo
+  - *CRUD controllers and views*: https://www.youtube.com/watch?v=luN12XScptI
+- **Week Seven**
+  - **Ruby on Rails**
+  - *Part One*: https://www.youtube.com/watch?v=n3IbVw8lsCo
+  - *Part Two*: https://www.youtube.com/watch?v=lyxh3-cQ-EY
+  - **Digital Ocean**
+  - *Part One - Provisioning Droplet*:  https://www.youtube.com/watch?v=M6U8_VN8eFE
+  - *Part Two - postgresql*: https://www.youtube.com/watch?v=YpLdDvL0dWw
+  - *Part Three - Connecting to Github*: https://www.youtube.com/watch?v=Ft3iLLX-3nc
+  - *Part Four - Nginx & Unicorn*: https://www.youtube.com/watch?v=YHqO_8Mps-c
+  **Rails Authentication**
+  - Part One: https://www.youtube.com/watch?v=9NxmGuJKGIc
+  - Part Two: https://www.youtube.com/watch?v=m1jiQaQofN0
+  - Part Three: https://www.youtube.com/watch?v=IKzVsNqgSWY
+- **Week Eight**:
+  - *Asset Pipeline + Bootstrap*: https://www.youtube.com/watch?v=mLx_VJVzMOw
+  - RESTFul API Part 1: https://www.youtube.com/watch?v=s9MV7TkG9jQ
+  - RESTful API Part 2: https://www.youtube.com/watch?v=ULSw0NR1RBo
+  - Backbone View: https://www.youtube.com/watch?v=vziKHrB9Sbc
+  - Backbone Model & View: https://www.youtube.com/watch?v=iXJBitx1Dt0
+- **Week Nine**:
+  - REST Api with Ruby on Rails: https://www.youtube.com/watch?v=WS4DyMny8-w&feature=youtu.be (source: https://github.com/ga-chicago/Rails_Restful_api)
+  - Backbone.js Collection Rendering (part 1): https://www.youtube.com/watch?v=hZ46dLiKwGE&feature=youtu.be
+  - Backbone.js Collection Rendering (part 2):
+  https://www.youtube.com/watch?v=_mfdfofw754&feature=youtu.be
+- **Week Ten**:
+  - Node, Express, Mongo RESTful API: https://www.youtube.com/watch?v=-_PWMrTXTPA
+- **Week 11, AngularJS + TDD**:
+  - Final Pass Friday pt 1: https://youtu.be/xoFrDrcmqws
+  - Final Pass Friday pt 2: https://youtu.be/ggM45Z5Ne4M

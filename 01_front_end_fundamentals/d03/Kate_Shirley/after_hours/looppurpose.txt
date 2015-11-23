@@ -1,0 +1,3 @@
+What is the purpose of a loop? 
+
+Loops allow you to cycle through each item in an array and to apply code to each array index individually. This is important because it means you don’t have to write the same code for each item in the array (keep it DRY) or hard code how many times a function should run. 

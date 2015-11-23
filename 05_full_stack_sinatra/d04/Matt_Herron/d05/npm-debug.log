@@ -1,0 +1,207 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'yo' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'yo', null ]
+5 verbose cache add name=undefined spec="yo" args=["yo",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'yo',
+6 verbose parsed url   path: 'yo',
+6 verbose parsed url   href: 'yo' }
+7 silly lockFile c41975d1-yo yo
+8 verbose lock yo /Users/swimclan/.npm/c41975d1-yo.lock
+9 silly lockFile c41975d1-yo yo
+10 silly lockFile c41975d1-yo yo
+11 verbose addNamed [ 'yo', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile d937c28e-yo yo@
+14 verbose lock yo@ /Users/swimclan/.npm/d937c28e-yo.lock
+15 silly addNameRange { name: 'yo', range: '*', hasData: false }
+16 verbose request where is /yo
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 3300760e7aa002ee
+19 verbose url raw /yo
+20 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+21 verbose url resolved https://registry.npmjs.org/yo
+22 verbose request where is https://registry.npmjs.org/yo
+23 info trying registry request attempt 1 at 14:00:52
+24 http GET https://registry.npmjs.org/yo
+25 http 200 https://registry.npmjs.org/yo
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"5IAMLY8P06AGPQ4H7VXMEWVXZ"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '33846',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Fri, 31 Jul 2015 19:00:53 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '27',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-dfw1826-DFW',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1438369253.259227,VS0,VE0',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+28 silly addNameRange versions [ 'yo',
+28 silly addNameRange   [ '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.1.2',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.2.1',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.3.3',
+28 silly addNameRange     '1.4.6',
+28 silly addNameRange     '1.4.7' ] ]
+29 verbose addNamed [ 'yo', '1.4.7' ]
+30 verbose addNamed [ '1.4.7', '1.4.7' ]
+31 silly lockFile 22bae6b4-yo-1-4-7 yo@1.4.7
+32 verbose lock yo@1.4.7 /Users/swimclan/.npm/22bae6b4-yo-1-4-7.lock
+33 silly lockFile ef4e4e38-gistry-npmjs-org-yo-yo-1-4-7-tgz https://registry.npmjs.org/yo/-/yo-1.4.7.tgz
+34 verbose lock https://registry.npmjs.org/yo/-/yo-1.4.7.tgz /Users/swimclan/.npm/ef4e4e38-gistry-npmjs-org-yo-yo-1-4-7-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/yo/-/yo-1.4.7.tgz',
+35 verbose addRemoteTarball   '7eecb354f6f4df2dafbc2da53d30f7f7fafcb450' ]
+36 info retry fetch attempt 1 at 14:00:53
+37 verbose fetch to= /var/folders/t5/8vt2f38j45j8wrdf2wrjd5yr0000gn/T/npm-1338-gc7l1jJw/registry.npmjs.org/yo/-/yo-1.4.7.tgz
+38 http GET https://registry.npmjs.org/yo/-/yo-1.4.7.tgz
+39 http 200 https://registry.npmjs.org/yo/-/yo-1.4.7.tgz
+40 silly lockFile ef4e4e38-gistry-npmjs-org-yo-yo-1-4-7-tgz https://registry.npmjs.org/yo/-/yo-1.4.7.tgz
+41 silly lockFile ef4e4e38-gistry-npmjs-org-yo-yo-1-4-7-tgz https://registry.npmjs.org/yo/-/yo-1.4.7.tgz
+42 silly lockFile 22bae6b4-yo-1-4-7 yo@1.4.7
+43 silly lockFile 22bae6b4-yo-1-4-7 yo@1.4.7
+44 silly lockFile d937c28e-yo yo@
+45 silly lockFile d937c28e-yo yo@
+46 silly resolved [ { name: 'yo',
+46 silly resolved     version: '1.4.7',
+46 silly resolved     description: 'CLI tool for running Yeoman generators',
+46 silly resolved     license: 'BSD-2-Clause',
+46 silly resolved     bin: { yo: 'lib/cli.js' },
+46 silly resolved     author: { name: 'Yeoman' },
+46 silly resolved     repository: { type: 'git', url: 'https://github.com/yeoman/yo' },
+46 silly resolved     engines: { node: '>=0.10.0', npm: '>=2.8.0' },
+46 silly resolved     scripts:
+46 silly resolved      { test: 'jshint . && mocha test/**/*.js',
+46 silly resolved        postinstall: 'yodoctor',
+46 silly resolved        postupdate: 'yodoctor',
+46 silly resolved        prepublish: 'nsp audit-package' },
+46 silly resolved     files: [ 'lib' ],
+46 silly resolved     keywords:
+46 silly resolved      [ 'cli-app',
+46 silly resolved        'cli',
+46 silly resolved        'bin',
+46 silly resolved        'front-end',
+46 silly resolved        'development',
+46 silly resolved        'dev',
+46 silly resolved        'build',
+46 silly resolved        'web',
+46 silly resolved        'tool',
+46 silly resolved        'scaffold',
+46 silly resolved        'stack',
+46 silly resolved        'yeoman',
+46 silly resolved        'generator',
+46 silly resolved        'generate',
+46 silly resolved        'app',
+46 silly resolved        'boilerplate' ],
+46 silly resolved     dependencies:
+46 silly resolved      { 'array-uniq': '^1.0.2',
+46 silly resolved        async: '^1.0.0',
+46 silly resolved        chalk: '^1.0.0',
+46 silly resolved        configstore: '^1.0.0',
+46 silly resolved        'cross-spawn': '^0.4.0',
+46 silly resolved        figures: '^1.3.5',
+46 silly resolved        findup: '^0.1.5',
+46 silly resolved        fullname: '^1.0.0',
+46 silly resolved        got: '^3.2.0',
+46 silly resolved        'humanize-string': '^1.0.0',
+46 silly resolved        inquirer: '^0.8.0',
+46 silly resolved        insight: '^0.6.0',
+46 silly resolved        lodash: '^3.2.0',
+46 silly resolved        meow: '^3.0.0',
+46 silly resolved        'npm-keyword': '^1.1.1',
+46 silly resolved        opn: '^1.0.0',
+46 silly resolved        'package-json': '^1.1.0',
+46 silly resolved        repeating: '^1.1.2',
+46 silly resolved        'root-check': '^1.0.0',
+46 silly resolved        'sort-on': '^1.0.0',
+46 silly resolved        'string-length': '^1.0.0',
+46 silly resolved        titleize: '^1.0.0',
+46 silly resolved        'update-notifier': '^0.5.0',
+46 silly resolved        'user-home': '^1.1.0',
+46 silly resolved        'yeoman-character': '^1.0.0',
+46 silly resolved        'yeoman-doctor': '^1.0.0',
+46 silly resolved        'yeoman-environment': '^1.0.1',
+46 silly resolved        yosay: '^1.0.0' },
+46 silly resolved     devDependencies:
+46 silly resolved      { jshint: '^2.5.11',
+46 silly resolved        mocha: '^2.1.0',
+46 silly resolved        mockery: '^1.4.0',
+46 silly resolved        nock: '^2.0.1',
+46 silly resolved        nsp: '*',
+46 silly resolved        proxyquire: '^1.0.1',
+46 silly resolved        'registry-url': '^3.0.0',
+46 silly resolved        sinon: '^1.12.1' },
+46 silly resolved     preferGlobal: true,
+46 silly resolved     gitHead: '675d647162f1ecd7f290995078cf8ab42756bf9d',
+46 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+46 silly resolved     homepage: 'https://github.com/yeoman/yo',
+46 silly resolved     _id: 'yo@1.4.7',
+46 silly resolved     _shasum: '7eecb354f6f4df2dafbc2da53d30f7f7fafcb450',
+46 silly resolved     _from: 'yo@',
+46 silly resolved     _npmVersion: '2.10.1',
+46 silly resolved     _nodeVersion: '0.12.4',
+46 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+46 silly resolved     dist:
+46 silly resolved      { shasum: '7eecb354f6f4df2dafbc2da53d30f7f7fafcb450',
+46 silly resolved        tarball: 'http://registry.npmjs.org/yo/-/yo-1.4.7.tgz' },
+46 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/yo/-/yo-1.4.7.tgz' } ]
+47 info install yo@1.4.7 into /usr/local/lib
+48 info installOne yo@1.4.7
+49 warn engine yo@1.4.7: wanted: {"node":">=0.10.0","npm":">=2.8.0"} (current: {"node":"0.10.35","npm":"1.4.28"})
+50 verbose lib/node_modules/yo unbuild
+51 verbose tar unpack /Users/swimclan/.npm/yo/1.4.7/package.tgz
+52 silly lockFile 7d7c7bef-ar-usr-local-lib-node-modules-yo tar:///usr/local/lib/node_modules/yo
+53 verbose lock tar:///usr/local/lib/node_modules/yo /Users/swimclan/.npm/7d7c7bef-ar-usr-local-lib-node-modules-yo.lock
+54 silly lockFile 4502bc18-wimclan-npm-yo-1-4-7-package-tgz tar:///Users/swimclan/.npm/yo/1.4.7/package.tgz
+55 verbose lock tar:///Users/swimclan/.npm/yo/1.4.7/package.tgz /Users/swimclan/.npm/4502bc18-wimclan-npm-yo-1-4-7-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 error Error: EACCES, mkdir '/usr/local/lib/node_modules/yo'
+57 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/yo']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/local/lib/node_modules/yo',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/local/lib/node_modules/yo',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:108:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Darwin 14.4.0
+60 error command "node" "/usr/local/bin/npm" "install" "-g" "yo"
+61 error cwd /Volumes/LITTLE ONE/Sites/death_star/WDI_Chi_Darth_Vader/05_full_stack_sinatra/d04/Matt_Herron/d05
+62 error node -v v0.10.35
+63 error npm -v 1.4.28
+64 error path /usr/local/lib/node_modules/yo
+65 error fstream_path /usr/local/lib/node_modules/yo
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/yo'
+71 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:108:15)
+72 verbose exit [ 3, true ]

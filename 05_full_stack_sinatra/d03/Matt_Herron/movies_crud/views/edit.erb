@@ -1,0 +1,23 @@
+<h3>Edit <%= @movie.title %></h3>
+<p>
+  Please edit <%= @movie.title %> and let us know what the actual movie information is
+</p>
+<form class="editmovie" action="/movies/edit" method="post">
+  <fieldset id="editform">
+    <input class="fields" type="hidden" name="id" value="<%= @movie.id %>">
+    <input class="fields" type="text" name="title" value="<%= @movie.title %>">
+    <textarea class="fields" type="text" name="description"><%= @movie.description %></textarea>
+    <label for="ratings"></label><select id="ratings" class="" name="rating">
+      <% @ratings.each do |rating| %>
+        <% if rating == @movie.rating %>
+          <option value="<%= rating %>" selected><%= rating %></option>
+        <% else %>
+          <option value="<%= rating %>"><%= rating %></option>
+        <% end %>
+      <% end %>
+    </select><br>
+    <input class="fields" type="text" name="release_date" value="<%= @movie.release_date %>">
+    <input class="fields" type="text" name="length" value="<%= @movie.length %>">
+    <input class="fields" type="submit" name="submit" value="Submit">
+  </fieldset>
+</form>

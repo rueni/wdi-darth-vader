@@ -1,0 +1,13 @@
+nav {
+  text-align: center; }
+
+section h2 {
+  text-align: center; }
+section li {
+  list-style: none;
+  display: inline; }
+
+.edit input {
+  display: block; }
+
+/*# sourceMappingURL=custom.css.map */

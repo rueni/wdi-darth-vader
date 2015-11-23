@@ -1,0 +1,33 @@
+<h3>All the worst movies of all time</h3>
+<p>
+  Here is the list of all the movies in our database.  It is the definitive list of the most terrible movies you could ever possibly see in a single lifetime!  This is the reason why you don't want to go see movies all the time because you may accidentally see something this bad.
+</p>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Rating</th>
+      <th>Release Date</th>
+      <th>Length</th>
+      <th>Edit</th>
+      <th>Delete</th>
+
+    </tr>
+  </thead>
+  <tbody>
+<% @movies.each do |movie| %>
+
+  <tr>
+    <td><%= movie.title %></td>
+    <td><%= movie.description %></td>
+    <td><%= movie.rating %></td>
+    <td><%= movie.release_date %></td>
+    <td><%= movie.length %></td>
+    <td><a href="/movies/edit/<%= movie.id %>">EDIT</a></td>
+    <td><form action="/movies/delete/<%= movie.id %>" method="post"><input class="deletebutton" type="submit" name="submit" value="DELETE"></form></td>
+  </tr>
+
+<% end %>
+</tbody>
+</table>

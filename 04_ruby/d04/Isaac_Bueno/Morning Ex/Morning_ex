@@ -1,0 +1,25 @@
+hawaiian = ['Jim', 'Tristen', 'Matt', 'Brad', 'Myron', 'Dave', 'Joe', 'Tom', 'James']
+hawaiian.pop
+hawaiian.push
+
+non_hawaiian = ['Eric', 'Myself', 'Chris', 'Kate', 'Dylan', 'Sonju']
+non-hawaiian.pop
+non-hawaiian.push
+hawaiian.each {|x|}
+
+hawaiian.map {|x| x}
+
+# Write a Class (must take in at least 3 arguments and contain a to_s) for at
+# least one array and instantiate a new instance of each item in the array
+
+class Hawaii
+  def initialize(color, age, style)
+    @color=color
+    @age=age
+    @style=style
+  end
+
+  def to_s
+    "this #{@style} hawaiian shirt is #{@color} and is #{@age} old."
+  end
+end

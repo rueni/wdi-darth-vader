@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Movie Database</title>
+  </head>
+  <body>
+    <header>
+      <h1>Movie database</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/movies">Movies</a></li>
+        </ul>
+      </nav>
+      <hr>
+    </header>
+
+    <%= yield %>
+
+    <footer>
+      <hr>
+      <p>
+        &copy; Movie Database built in sinatra. Follows basic MVC.
+      </p>
+    </footer>
+
+
+  </body>
+</html>

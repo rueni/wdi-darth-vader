@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stylish Ordered Lists</title>
+    <style>
+      .bands {
+        background-color: rgba(255, 255, 0, 0.5);
+        font-weight: bold;
+        font-style: italic;
+      }
+      .JamBands {
+        background-color: rgba(0, 0, 220, 0.5);
+      }
+      .lyrics {
+        background-color: rgba(255, 0, 0, 0.5);
+        font-style: oblique;
+      }
+      li {
+        font-weight: bold;
+        background-color: rgba(0, 200, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <h1 class = "bands">Favorite Bands</h1>
+      <li class = "JamBands">The Grateful Dead</li>
+      <li class = "lyrics">Bob Dylan</li>
+      <li class = "JamBands">Phish</li>
+      <li class = "lyrics">Paul Simon</li>
+      <li>The Band</li>
+
+      <script type="text/javascript">
+        var favBands = ["The Grateful Dead", "Bob Dylan", "Phish",  "Paul Simon"]
+
+        for (var index in favBands) {
+          console.log(favBands[index]);
+        }
+
+      </script>
+    </ol>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<p>
+  <h3>Array 1</h3>
+  <ul>
+      <% @array_1.each do |item| %>
+      <li><%= item.to_s %></li>
+      <% end %>
+  </ul>
+  <h3>Array 2</h3>
+  <ul>
+    <% @array_2.each do |item| %>
+    <li><%= item.to_s %></li>
+    <% end %>
+  </ul>
+
+  <h3>Random Array 1</h3>
+  <p>
+    <%= @array_1_random %>
+  </p>
+
+  <table>
+    <thead>
+      <th>
+        <td>
+          Item
+        </td>
+      </th>
+    </thead>
+    <tbody>
+      <% @array_1.length.times do %>
+      <tr>
+        <td>
+          <%= @array_1[@random.rand(0..4)] %>
+        </td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <h3>Random Array 2</h3>
+  <p>
+    <%= @array_2_random %>
+  </p>
+
+  <table>
+    <thead>
+      <th>
+        <td>
+          Item
+        </td>
+      </th>
+    </thead>
+    <tbody>
+      <% @array_2.length.times do %>
+      <tr>
+        <td>
+          <%= @array_2[@random.rand(0..4)] %>
+        </td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+</p>

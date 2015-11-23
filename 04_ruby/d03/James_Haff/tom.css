@@ -1,0 +1,51 @@
+
+
+body {
+  background-image: url("http://wpdevsnippets.com/snippets-media/bg/hires-bg3.jpg");
+  width:  100%;
+  height: auto;
+}
+
+div {
+  margin: 0 auto;
+  width:  66%;
+  border-radius: 20px;
+  padding-top: 5%;
+
+}
+
+  .submitForm {
+  margin: 0 auto;
+  padding: 5%;
+  margin-left: 2%;
+  margin-top: 10%;
+  font-size: 1.3em;
+  height: 80%;
+  background-color: rgba(240, 235, 215, 0.68);
+  border-radius: 20px;
+  z-index: 1000;
+
+}
+.submitButton {
+  width: 90%;
+  border: 0px;
+  margin-left: 2%;
+  border: 3px solid rgba(1, 4, 17, 0.81);
+  border-radius: 20px;
+  color: rgba(156, 149, 135);
+}
+
+.info {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 1%;
+  font-size: 0.7em;
+}
+
+.label {
+  padding: 2%;
+  margin: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+}

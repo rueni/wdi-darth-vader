@@ -1,0 +1,27 @@
+<h2>Event name</h2>
+<h4>May 29th, 2016</h4>
+
+<strong>United Center</strong>
+
+<p>Tickets start at $350. Limited seating. Come win the Stanley Cup!</p>
+
+<h2>Tom Taylors Party</h2>
+<h4>December 29th, 2015</h4>
+
+<strong>Tom's Beach House</strong>
+
+<p>Bring yo shit</p>
+
+
+// HTML
+<script type = 'text/template' id= 'event'>
+  <h2><%=eventName %> </h2>
+    <h4><%=date %>
+
+      <strong><%= location %>
+        </strong>
+        </h4>
+        <p><%= description %></p>
+        </script>
+
+js

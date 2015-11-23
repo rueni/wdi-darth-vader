@@ -1,0 +1,11 @@
+.block_one {
+  width: 99%;
+  height: 300px;
+  background: repeating-radial-gradient(#b9e23f, #b887bf 5px, white 50px, white 16px);
+  border-radius: 40px;
+  border: 3px solid green; }
+  .block_one h1 {
+    color: brown;
+    text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */

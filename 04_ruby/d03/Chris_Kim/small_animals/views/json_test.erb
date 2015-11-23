@@ -1,0 +1,27 @@
+
+<p>This is where the cute animals reside on the interweb</p>
+
+<script>
+
+  var p = $('p');
+
+$(document).ready(function() {
+  $.ajax({
+    type: 'get',
+    dataType: 'json',
+    url: '/rooney',
+    success: function(data){
+      console.log(data);
+      $(p).append('<br><img src='+ data.picture_url + ' style="height:500px;width:350px;" alt="25"><img>')
+    },
+    error: function(err){
+      console.log(err);
+      $(p).html('An error occured');
+    }
+  });
+
+});
+
+
+
+</script>

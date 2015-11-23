@@ -1,0 +1,35 @@
+/* Default Values*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Block position: static*/
+body {
+  font-family: 'Helvetica';
+}
+
+/*Block position: static*/
+header {
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+/*Block position: static*/
+.test {
+  padding: 0 0 0 8rem;
+}
+
+ul {
+  list-style: none;
+  list-style-position: inside;
+}
+/*Block postion: fixed*/
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  text-align: center;
+}

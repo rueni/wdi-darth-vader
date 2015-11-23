@@ -1,0 +1,43 @@
+<h3> All of the Songs</h3>
+<table>
+
+<thead>
+  <tr>
+  <th>Title</th>
+  <th>artist</th>
+  <th>release_date length</th>
+  <th>length</th>
+  </tr>
+</thead>
+<tbody>
+
+
+<% @songs.each do |songs| %>
+
+<tr>
+
+  <!-- title -->
+  <td>
+    <%= songs.title %>
+  </td>
+
+  <!-- artist -->
+  <td>
+    <%= songs.artist %>
+  </td>
+
+  <!-- release_date -->
+  <td>
+    <%= songs.release_date %>
+  </td>
+
+  <!--song length-->
+  <td>
+    <%= songs.length %>
+  </td>
+
+</tr>
+
+<% end %>
+</tbody>
+</table>

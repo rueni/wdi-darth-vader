@@ -1,0 +1,16 @@
+button {
+  height: 8em;
+  width: 8em;
+  font-weight:bold;
+  border-radius: 9px;
+  font-size: 1rem;
+
+}
+body {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+}
+#background {
+  background-color: darkgreen;
+}

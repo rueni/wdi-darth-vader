@@ -1,0 +1,118 @@
+<script>
+  var json_array = ['/catz', '/pandaz', '/lizardz', '/sssnakez', '/ferretz']
+  var sec = $('section');
+
+
+
+  for (var inc in json_array) {
+  $.ajax({
+    type: 'get',
+    dataType: 'json',
+    url: json_array[inc],
+    success: function (data) {
+      console.log(data);
+      for (var inc in data) {
+        $(sec).append(data[inc] + '<br>')
+      }
+      $(sec).append('<img src="' + data.picture_url + '" />');
+      $(sec).append('<hr>');
+    },
+    error: function (err) {
+      console.log('you messed up yo!');
+    }
+  });
+}
+
+  //
+  // $.ajax({
+  //   type: 'get',
+  //   dataType: 'json',
+  //   url: '/catz',
+  //   success: function (data) {
+  //     console.log(data);
+  //     for (var inc in data) {
+  //       $(sec).append(data[inc] + '<br>')
+  //     }
+  //     $(sec).append('<img src="' + data.picture_url + '" />');
+  //     $(sec).append('<hr>');
+  //   },
+  //   error: function (err) {
+  //     console.log('you messed up yo!');
+  //   }
+  // });
+  //
+  //
+  // $.ajax({
+  //   type: 'get',
+  //   dataType: 'json',
+  //   url: '/pandaz',
+  //   success: function (data) {
+  //     console.log(data);
+  //     for (var inc in data) {
+  //       $(sec).append(data[inc] + '<br>')
+  //     }
+  //     $(sec).append('<img src="' + data.picture_url + '" />');
+  //     $(sec).append('<hr>');
+  //   },
+  //   error: function (err) {
+  //     console.log('you messed up yo!');
+  //   }
+  // });
+  //
+  //
+  // $.ajax({
+  //   type: 'get',
+  //   dataType: 'json',
+  //   url: '/ferretz',
+  //   success: function (data) {
+  //     console.log(data);
+  //     for (var inc in data) {
+  //       $(sec).append(data[inc] + '<br>')
+  //     }
+  //     $(sec).append('<img src="' + data.picture_url + '" />');
+  //     $(sec).append('<hr>');
+  //   },
+  //   error: function (err) {
+  //     console.log('you messed up yo!');
+  //   }
+  // });
+  //
+  //
+  // $.ajax({
+  //   type: 'get',
+  //   dataType: 'json',
+  //   url: '/sssnakez',
+  //   success: function (data) {
+  //     console.log(data);
+  //     for (var inc in data) {
+  //       $(sec).append(data[inc] + '<br>')
+  //     }
+  //     $(sec).append('<img src="' + data.picture_url + '" />');
+  //     $(sec).append('<hr>');
+  //   },
+  //   error: function (err) {
+  //     console.log('you messed up yo!');
+  //   }
+  // });
+  //
+  //
+  // $.ajax({
+  //   type: 'get',
+  //   dataType: 'json',
+  //   url: '/lizardz',
+  //   success: function (data) {
+  //     console.log(data);
+  //     for (var inc in data) {
+  //       $(sec).append(data[inc] + '<br>')
+  //     }
+  //     $(sec).append('<img src="' + data.picture_url + '" />');
+  //     $(sec).append('<hr>');
+  //   },
+  //   error: function (err) {
+  //     console.log('you messed up yo!');
+  //   }
+  // });
+
+
+
+</script>

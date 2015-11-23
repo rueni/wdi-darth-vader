@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <<script type="text/javascript">
+      var randomNumber = 0;
+      var suit;
+      var card;
+
+      var playerOneHand = [];
+      var playerTwoHand = [];
+      for (i = 0; i < 5; i++) {
+        playerOneHand[i] = {
+          suit = Math.floor(Math.random() * (4 - 1)) + 1;
+          card = Math.floor(Math.random() * (13 - 1)) + 1;
+          switch (suit) {
+            case 1:
+              suit = 'Hearts';
+              break;
+            case 2:
+              suit = 'Diamonds';
+              break;
+            case 3:
+              suit = 'Spades';
+              break;
+            case 4:
+              suit = 'Clubs';
+              break;
+            default:
+          }
+          switch (card) {
+            case 1:
+              card = 'Ace';
+              break;
+            case 2:
+              card = '2';
+              break;
+            case 3:
+              card = '3';
+              break;
+            case 4:
+              card = '4';
+              break;
+            case 5:
+              card = '5';
+              break;
+            case 6:
+              card = '6';
+              break;
+            case 7:
+              card = '7';
+              break;
+            case 8:
+              card = '8';
+              break;
+            case 9:
+              card = '9';
+              break;
+            case 10:
+              card = '10';
+              break;
+            case 11:
+              card = 'Jack';
+              break;
+            case 12:
+              card = 'Queen';
+              break;
+            case 13:
+              card = 'King';
+              break;
+            default:
+          }
+          playerTwoHand[i] = {
+            suit = Math.floor(Math.random() * (4 - 1)) + 1;
+            card = Math.floor(Math.random() * (13 - 1)) + 1;
+            switch (suit) {
+              case 1:
+                suit = 'Hearts';
+                break;
+              case 2:
+                suit = 'Diamonds';
+                break;
+              case 3:
+                suit = 'Spades';
+                break;
+              case 4:
+                suit = 'Clubs';
+                break;
+              default:
+            }
+            switch (card) {
+              case 1:
+                card = 'Ace';
+                break;
+              case 2:
+                card = '2';
+                break;
+              case 3:
+                card = '3';
+                break;
+              case 4:
+                card = '4';
+                break;
+              case 5:
+                card = '5';
+                break;
+              case 6:
+                card = '6';
+                break;
+              case 7:
+                card = '7';
+                break;
+              case 8:
+                card = '8';
+                break;
+              case 9:
+                card = '9';
+                break;
+              case 10:
+                card = '10';
+                break;
+              case 11:
+                card = 'Jack';
+                break;
+              case 12:
+                card = 'Queen';
+                break;
+              case 13:
+                card = 'King';
+                break;
+              default:
+            }
+        }
+      }
+    }
+      console.log(playerOneHand, playerTwoHand);
+    </script>
+  </body>
+</html>
+
+
+/*
+4 suits Need a random number for this
+  1 = Hearts
+  2 = Diamonds
+  3 = Spades
+  4 = Clubs
+
+13 cards per suit
+
+  1 = ace
+  2 - 10 = same
+  11 = Jack
+  12 = Queen
+  13 = King
+
+
+
+
+*/

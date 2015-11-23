@@ -1,0 +1,42 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+h1, h4 {
+	text-align: center;
+}
+
+h4 {
+	display: inline-block; 
+}
+
+button {
+	height: 3em;
+	width: 3em;
+	font-weight: bold;
+	border-radius: 9px;	
+	font-size: 3rem;
+	background-image: linear-gradient(rgba(255,255,255,.1), white);
+	border: 2px solid white;
+}
+
+button#reset {
+	font-size: 1.3em;
+	padding: 0;
+	margin: 10px 50px 10px 10px;
+	display: inline-block;	
+	background-image: none; 
+	background-color: tomato;
+}
+
+table {
+	background-image: radial-gradient(#d3d3d3, black);
+	margin: 0 auto;
+}
+
+footer {
+	margin: 0 auto;	
+	text-align: center;
+}
+

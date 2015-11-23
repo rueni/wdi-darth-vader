@@ -1,0 +1,75 @@
+body {
+  font-family: serif, sans-serif;
+  margin:  0px;
+}
+
+#wrapper {
+  width:  90%;
+  margin:  15px auto;
+}
+
+header {
+  border:  3px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height:  100px;
+}
+
+nav  {
+  border:  3px solid yellow;
+  margin-left: auto;
+  margin-right: auto;
+  position:  relative;
+  margin-top: 10px;
+}
+.menu ul  {
+  padding:  0px;
+}
+
+.menu li  {
+  display:  inline-block;
+  list-style: none;
+}
+
+#left {
+  border:  3px solid purple;
+  width:  20%;
+  height:  400px;
+  margin-left: auto;
+  margin-right: auto;
+  float:  left;
+  margin-top: 10px;
+
+  }
+
+#right{
+    border:  3px solid purple;
+    width:  20%;
+    height:  400px;
+    margin-left: auto;
+    margin-right: auto;
+    float:  right;
+    margin-top: 10px;
+
+    }
+
+  section  {
+    border:  3px solid red;
+    width:  55%;
+    margin-left: auto;
+    margin-right: auto;
+    height:  400px;
+    margin-top: 10px;
+
+  }
+
+  footer {
+    clear:  both;
+    border:  3px solid lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    height:  100px;
+    margin-top: 10px;
+
+  }

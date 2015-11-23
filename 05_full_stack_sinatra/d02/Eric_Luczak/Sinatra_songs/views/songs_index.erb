@@ -1,0 +1,8 @@
+<h2>Sinatra's Songs</h2>
+
+<ol>
+
+  <%= @songs.each do |song| %>
+  <li><%= song.artist %> wrote <%= song.title %> in <%= song.year_released %></li>
+
+</ol>

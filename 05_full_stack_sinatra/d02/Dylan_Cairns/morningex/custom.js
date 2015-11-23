@@ -1,0 +1,1 @@
+$('html').parallax({imageSrc: 'https://unsplash.imgix.net/photo-1433840496881-cbd845929862?dpr=2&fit=crop&fm=jpg'});

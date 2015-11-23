@@ -1,0 +1,10 @@
+$primary-color: slateblue;
+
+.block_one {
+  background-color: $primary-color;
+  width: 99%;
+  height: 500px;
+  h1 {
+    color: brown;
+  }
+}

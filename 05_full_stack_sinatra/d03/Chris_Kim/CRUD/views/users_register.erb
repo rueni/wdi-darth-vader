@@ -1,0 +1,20 @@
+<h5>Please log In</h5>
+
+<form method="post">
+    <input type="hidden" name="id" value="<%= @user.id %>">
+  <input type="text" name="user_name" value="<%= @user.user_name %>">
+  <input type="text" name="password" value="<%= @user.password_hash %>">
+  <input type="submit" name="Log In">
+</form>
+
+<h5>Register a new account</h5>
+<form method="post">
+  <input type="text" name="user_name" placeholder="User Name">
+  <input type="text" name="user_email" placeholder="Email">
+  <input type="text" name="user_password" placeholder="Password">
+  <input type="submit" name="register">
+</form>
+
+<form action="/">
+  <input type="submit" value="Back">
+</form>

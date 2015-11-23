@@ -1,0 +1,10 @@
+var students = ['Lichard','Omily', 'Kathew', 'Cecelious'];
+var student;
+
+
+for (var student in students) {
+  console.log(student);
+  console.log(students[student]);
+}
+
+//studnets[0]

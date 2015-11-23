@@ -1,0 +1,112 @@
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+
+    <h2>Chipotle things to eat</h2>
+
+    <li><a href="/chipotle/new">Add new Chipotle</a></li>
+
+    <h4>List of the Chipotles you wanna eat</h4>
+
+    <table class='table table-striped'>
+      <thead>
+        <tr>
+          <td>
+            Type
+          </td>
+          <td>
+            Tortilla?
+          </td>
+          <td>
+            Rice
+          </td>
+          <td>
+            Beans
+          </td>
+          <td>
+            Fajitas
+          </td>
+          <td>
+            Pico de Gallo
+          </td>
+          <td>
+            Corn
+          </td>
+          <td>
+            Salsa
+          </td>
+          <td>
+            Sour cream?
+          </td>
+          <td>
+            Cheese?
+          </td>
+          <td>
+            Guacamole?
+          </td>
+          <td>
+            lettuce?
+          </td>
+          <td>
+            Did you eat it?
+          </td>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <% @chipotle.each do |item| %>
+
+          <tr>
+            <td>
+              item.type
+            </td>
+            <td>
+              item.tortilla
+            </td>
+            <td>
+              item.rice
+            </td>
+            <td>
+              item.beans
+            </td>
+            <td>
+              item.fajitas
+            </td>
+            <td>
+              item.pico_de_gallo
+            </td>
+            <td>
+              item.corn
+            </td>
+            <td>
+              item.salsa
+            </td>
+            <td>
+              item.sour_cream
+            </td>
+            <td>
+              item.cheese
+            </td>
+            <td>
+              item.guacamole
+            </td>
+            <td>
+              item.lettuce
+            </td>
+
+            <td>
+              <%= form_for item, url: {action: 'delete'} do |f| %>
+                <%= f.hidden_field :id %>
+                <%= f.submit 'Yuuummmmm' %>
+              <% end %>
+            </td>
+            
+          </tr>
+        <% end %>
+
+      </tbody>
+    </table>
+
+
+  </div>
+</div>

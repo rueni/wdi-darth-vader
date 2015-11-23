@@ -1,0 +1,23 @@
+<h1>Play</h1>
+<% @flashcards.each do |flashcard| %>
+<div class="card-container">
+<div class="card">
+  <div class="side">
+    <p>
+      <%= flashcard.question %>
+    </p>
+  </div>
+
+  <div class="side back">
+    <p>
+      <%= flashcard.answer %>
+    </p>
+
+  </div>
+
+</div>
+
+</div>
+<% end %>
+
+<input id="check-answer" type="button" value="CHECK">

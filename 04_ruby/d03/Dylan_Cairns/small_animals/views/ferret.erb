@@ -1,0 +1,17 @@
+<h1> Ferret </h1>
+<section></section>
+
+
+<script>
+	$(document).ready(function() {
+		var s = $('section');
+		$.ajax({
+			type: 'get'
+			dataType: 'json', 
+			url: '/animal/kitten',
+			success: function(data) {
+				$(s).html(data); 
+			}
+		})
+	});
+</script>

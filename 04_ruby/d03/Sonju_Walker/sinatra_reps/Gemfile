@@ -1,0 +1,4 @@
+source 'https://rubygems.org'   # linking ruby gems
+
+gem 'sinatra'   # calling sinatra gem 
+gem 'json'      # calling json gem

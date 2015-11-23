@@ -1,0 +1,27 @@
+<h1>this is index</h1>
+<h1 class="butts"></h1>
+<script>
+ $(document).ready(function() {
+
+   $.ajax({
+
+     type: 'get',
+     datatype: 'json',
+     url:  '/api/home_json',
+     success: function(data) {
+       console.log(data);
+       $('.butts').html(data);
+
+     },
+     error: function(error) {
+       console.log(error)
+       $('h1').html("an error occured")
+     }
+
+   });
+
+
+
+ });//end of document.ready
+
+</script>

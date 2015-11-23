@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*body {
+  margin: 0;
+  padding: 0 auto;
+}*/
+
+.one {
+  width: 90%;
+  background-color: gray;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.two {
+  width: 80%;
+  background-color: green;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.three {
+  width: 70%;
+  background-color: blue;
+  margin: 0 auto;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Google Maps</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="
+https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<insertAPIKeyhere>"></script>
+    <script type="text/javascript" src="gmaps.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <h1>Google Maps Example</h1>
+      <p>
+        This uses Google Maps and the GMAPS.js plugin
+      </p>
+    </header>
+
+    <form id="geocoding_form" method="post">
+      <label for="address"></label>
+      <input type="text" id="address" name="address">
+      <input type="submit" class="btn" value="Search">
+    </form>
+
+    <div id="map">
+
+    </div>
+
+
+  </body>
+</html>

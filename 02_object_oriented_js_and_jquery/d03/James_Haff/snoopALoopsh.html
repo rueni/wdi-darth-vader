@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Puff Puff Pass</title>
+  </head>
+  <body>
+    <script>
+
+      //pets
+      //name str, sounds str, fav foods str,
+    //makeSound (function),
+
+      var pets = function (names, sounds, favouriteFoods) {
+
+        this.names = names;
+        this.sounds = sounds;
+        this.favouriteFoods = favouriteFoods;
+        this.food = [];
+
+         this.myFood = function (food) {
+          for (i=0; i < food.length; i++) {
+            this.food.push(food[i]);
+           console.log(food[i]);
+          }
+          return "I can do it";
+        }
+
+
+        this.petsCan = function () {
+          return "My pet " + this.names + " makes a " + this.sounds + " and likes to eat " + this.favouriteFoods;
+        }
+        return "this is my pet";
+      }
+
+var myDog = new pets("frank", "bark", "dogFood");
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<h1> Baby Tiger </h1> 
+<section></section>
+
+<script>
+	$(document).ready(function() {
+		var s = $('section');
+		$.ajax({
+			type: 'get'
+			dataType: 'json', 
+			url: '/animal/baby-tiger',
+			success: function(data) {
+				$(s).html(data); 
+			}
+		})
+	});
+</script>

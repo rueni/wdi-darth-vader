@@ -1,0 +1,25 @@
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script src="app.js"></script>
+
+
+  app.js to do list
+
+  $(document).ready(function(event) {
+    console.log("all things are loaded.. thanks, yayQuerery")
+
+    var btns = $('button');
+    console.log(btns);
+
+    var btn =$(btns)[0];
+    console.log(btn);
+
+    var list = $('#todo-items');
+    var input = $('input[name="todo"]')[0];
+  });
+
+
+$(btn).on('click', function() {
+  var html = $(list).html()
+  $(list).html(html + "<li>" + input.value + "</li>")
+}

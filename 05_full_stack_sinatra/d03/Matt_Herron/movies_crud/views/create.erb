@@ -1,0 +1,18 @@
+<h3>Add a new movie to the database!</h3>
+<p>
+  Even our guys can't always get it all right.  We need you to enter a movie into the database too so we can crowd source and make this the most amzing site on the internet!
+</p>
+<form class="createform" action="/movies/create" method="post">
+  <input class="fields" type="text" name="title" value="" placeholder="Enter Title"><br>
+  <textarea name="description" value="" placeholder="Enter Description"></textarea><br>
+  <label for="ratings"></label><select id="ratings" class="" name="rating">
+    <option value="G">G</option>
+    <option value="PG">PG</option>
+    <option value="PG13">PG13</option>
+    <option value="R">R</option>
+    <option value="NC17">NC17</option>
+  </select><br>
+  <input class="fields" type="date" name="release_date" value="" placeholder="Enter Release Date"><br>
+  <input class="fields" type="text" name="length" value="" placeholder="Enter Running Time"><br>
+  <input class="fields" type="submit" name="submit" value="Submit">
+</form>

@@ -1,0 +1,24 @@
+#one {
+  width: 500px;
+  height: 150px;
+  background-color: blue;
+  color: black;
+  margin: 20px;
+  display: none;
+}
+#two {
+  width: 500px;
+  height: 150px;
+  background-color: green;
+  color: black;
+  margin: 20px;
+  display: none;
+}
+#three {
+  width: 500px;
+  height: 150px;
+  background-color: pink;
+  color: black;
+  margin: 20px;
+  display: none;
+}

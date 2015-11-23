@@ -1,0 +1,45 @@
+$font-default-height: 16px;
+$font-form: 1.5rem; 
+$font-stack: Verdana, sans-serif; 
+$font-primary-color: hsl(195, 11%, 29%); 
+$form-background-color: hsla(0, 0%, 100%, 0.5);
+$form-focus-color: hsl(53, 100%, 57%);
+$form-submit-color: hsl(196, 11%, 41%); 
+
+html {
+	background: url('https://unsplash.imgix.net/photo-1433840496881-cbd845929862?dpr=2&fit=crop&fm=jpg&q=75&w=1050') no-repeat center center fixed; 
+}
+body {
+	font-family: $font-stack;  
+	color: $font-primary-color; 
+}
+
+section {
+	margin: 10% auto;
+	text-align: center;
+}
+form {
+	margin: 0 auto;
+	width: 20%;
+	text-align: center;
+	background-color: $form-background-color; 
+	border-radius: 10px;
+	font-size: $font-form; 
+	padding: 20px;
+}
+
+input {
+	transition: padding 1s;
+}
+input:focus {
+	background-color: $form-focus-color; 
+	padding: 18px;
+}
+
+button[type="submit"] {
+	background-color: $form-submit-color;
+	border-radius: 10px; 
+	border: 1px solid black; 
+	min-width: 200px;
+	color: white; 
+}

@@ -1,0 +1,70 @@
+We have to lock this down so we wont get hacked!
+1)first create a users table
+go to gem file uncoment out gem 'bcrypt', '~> 3.1.7'
+Bundle
+rails g model user name email password_digest
+rake db:migrate
+create a controller that lets me sign up users
+rails g controller users new create
+go to routes.rb
+
+go to user.rb
+has_secure_password
+
+go to users_controller.rb
+#render a view to signup
+#create some user and such
+
+Why u need comments
+(six months from now why you did what you did)
+
+go to new.html.erb
+h2
+dif way 'users/create'
+
+then we did
+<%= form_for :user, url: 'users/create' do |f| %>
+
+Name: <%= f.text_field :name %>
+Email <%= f.text_field :email %>
+Password <%= f.password_field :password %>
+Confirm Password <%= f.password_field :password_confirmation %>
+<%= f.submit 'Register Now!' %>
+
+<% end %>
+
+
+
+Go to Users controllers
+private functions classes
+
+social security is
+
+if we post an account and no User when register, there is a prob
+only the user controller or cares about users
+shopplist only cares about the list
+
+params you must have a user with these things
+
+in users controller
+
+  def create
+    #create some user and such
+    @user = User.new(user_params)
+    if @user.save
+      session[:user_id] = @user.id
+      redirect_to '/home'
+    else
+      redirect_to '/users/signup'
+    end
+
+  end
+
+  private
+  # everything after private is private
+  #only owned by this controller
+
+  def user_params
+    params.require(:user).permit(:name,:email,:password,:password_confirmation)
+
+    changed new to users/signup

@@ -1,0 +1,11 @@
+var sentence = "Now I know what a TV dinner feels like";
+var wordArray = [];
+
+console.log(sentence.split(" ")); //this erases from memory
+
+
+wordArray =sentence.split(" ");
+console.log(wordArray);
+
+var reversedArray = [];
+reversedArray = wordArray.reverse();

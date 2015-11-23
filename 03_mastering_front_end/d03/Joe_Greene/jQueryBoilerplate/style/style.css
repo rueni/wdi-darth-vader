@@ -1,0 +1,53 @@
+/*
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 79 of style.scss
+
+74:     }
+75:   #laptop {
+76:     display: block;
+77:   }
+78: }
+
+Backtrace:
+style.scss:79
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:1162:in `expected'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:1098:in `expected'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:1093:in `tok!'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:640:in `block'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:647:in `block_contents'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:401:in `media_directive'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:219:in `special_directive'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:194:in `directive'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:401:in `media_directive'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:219:in `special_directive'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:194:in `directive'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:657:in `block_child'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/scss/parser.rb:42:in `parse'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/engine.rb:403:in `_to_tree'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Users/joegreene/.rvm/gems/ruby-2.2.1/gems/sass-3.4.16/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 79 of style.scss\A \A 74:     }\A 75:   #laptop {\A 76:     display: block;\A 77:   }\A 78: }"; }

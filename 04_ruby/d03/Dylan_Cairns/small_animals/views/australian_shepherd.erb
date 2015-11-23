@@ -1,0 +1,16 @@
+<h1> Australian Shepherd </h1> 
+<section></section>
+
+<script>
+	$(document).ready(function() {
+		var s = $('section');
+		$.ajax({
+			type: 'get'
+			dataType: 'json', 
+			url: '/animal/australian-shepherd',
+			success: function(data) {
+				$(s).html(data); 
+			}
+		})
+	});
+</script>

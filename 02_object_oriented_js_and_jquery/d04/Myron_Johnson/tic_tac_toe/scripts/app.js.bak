@@ -1,0 +1,149 @@
+$(document).ready(function() {
+
+  window.currentPlayer = 1;
+
+  $('#1').on("click", function() {
+    markSquare(this);
+    disableButton(this);
+    changePlayer();
+    whoIsNext();
+  });
+
+  $('#2').on("click", function() {
+    markSquare(this);
+    disableButton(this);
+    changePlayer();
+    whoIsNext();
+  });
+
+  $('#3').on("click", function() {
+    markSquare(this);
+    disableButton(this);
+    changePlayer();
+    whoIsNext();
+  });
+
+  $('#4').on("click", function() {
+    markSquare(this);
+    disableButton(this);
+    changePlayer();
+    whoIsNext();
+  });
+
+  $('#5').on("click", function() {
+    markSquare(this);
+    disableButton(this);
+    changePlayer();
+    whoIsNext();
+  });
+
+  $('#6').on("click", function() {
+    markSquare(this);
+    disableButton(this);
+    changePlayer();
+    whoIsNext();
+  });
+
+  $('#7').on("click", function() {
+    markSquare(this);
+    disableButton(this);
+    changePlayer();
+    whoIsNext();
+  });
+
+  $('#8').on("click", function() {
+    markSquare(this);
+    disableButton(this);
+    changePlayer();
+    whoIsNext();
+  });
+
+  $('#8').on("click", function() {
+    markSquare(this);
+    disableButton(this);
+    changePlayer();
+    whoIsNext();
+  });
+
+  $('#9').on("click", function() {
+    markSquare(this);
+    disableButton(this);
+    changePlayer();
+    whoIsNext();
+  });
+
+});
+// change player number
+// player 1 & 2
+
+function changePlayer() {
+
+  if (window.currentPlayer == 1) {
+    window.currentPlayer = 2;
+  }else {
+    window.currentPlayer = 1;
+  }
+
+  console.log("Player has been changed to..." + window.currentPlayer);
+  return window.currentPlayer;
+
+}
+
+// Disable buttons after clicked....
+function disableButton(buttonSelector) {
+
+  $(buttonSelector).prop("disabled", "disabled");
+  console.log("I disabled a button!");
+  return buttonSelector;
+
+}
+
+// add X or O
+function markSquare(buttonSelector) {
+
+  // 1 == X; 2 == O;
+  if (window.currentPlayer == 1) {
+    $(buttonSelector).html("X");
+  } else {
+    $(buttonSelector).html("O");
+  }
+
+}
+
+// Set who is next
+function whoIsNext() {
+  console.log(window.currentPlayer);
+  if (window.currentPlayer == 1) {
+    $('#whoIsNext').html("PLAYER ONE");
+  } else {
+    $('#whoIsNext').html("PLAYER TWO");
+  }
+}
+
+function checkWinner() {
+  var sqrOne = $('#1').html();
+  console.log(sqrOne);
+}
+
+if ((($('#1').html() &&
+     $('#2').html() &&
+     $('#3').html()
+   )) ||
+   ($('#4').html() &&
+        $('#5').html() &&
+        $('#6').html()
+  )   ||
+  ($('#7').html() &&
+       $('#8').html() &&
+       $('#9').html()
+  ) == 'X') {
+    console.log('true');
+  } else {
+    console.log('false');
+  }
+
+if ($('#1').html() == 'X') {
+  console.log('true');
+} else {
+  console.log('false');
+}

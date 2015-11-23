@@ -1,0 +1,43 @@
+
+button {
+  height: 2em;
+  width: 2em;
+  font-weight: lighter;
+  font-size: 5em;
+}
+h1{
+  text-align: center;
+  color: pink;
+  font-family:Impact;
+  text-decoration: underline;
+  font-size: 108px;
+  margin-bottom: -8px;
+}
+.topDesign {
+  color: pink;
+  text-align: center;
+  font-size: 80px;
+  font-family: Calibri;
+  text-decoration:line-through;
+  margin-bottom: -110px;
+  marin-top: -100px;
+  }
+
+.tic {
+  font-family: Times New Roman;
+  margin-top: -10px;
+}
+
+.bod{
+background: linear-gradient(red, pink);
+margin: 0 auto;
+}
+main {
+  margin: 0 auto;
+  width: 500px;
+}
+
+
+h1{
+  text-align: center;
+}

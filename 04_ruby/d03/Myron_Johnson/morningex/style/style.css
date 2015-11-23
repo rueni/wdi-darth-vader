@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 75px;
+  width: 99%;
+  background-image: url(../back1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#nav-bar {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0,0,0,.8);
+  position: fixed;
+  left: 0px;
+  top: 20px;
+}
+
+#nav-bar ul {
+
+}
+
+#nav-bar li {
+  list-style: none;
+  display: inline-block;
+  font: 'Verdana';
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+}
+input {
+  font-size: 16px;
+  font-family: 'Verdana';
+}
+
+.city-background {
+  margin: 0 auto;
+  background-image: url(../city1.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.form_box {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 45%;
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.9);
+  padding: 10px;
+}
+
+.text_form {
+  margin: 0 auto;
+  width: 95%;
+  border-radius: 10px;
+  font-family: Verdana;
+  padding: 10px;
+}
+
+.button_form {
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgba(215,215,215,1);
+}
+
+section {
+
+}
+
+.article-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255,255,255,1);
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0,0,0,.8);
+  font: 'Verdana';
+  font-size: 10px;
+}

@@ -1,0 +1,1 @@
+var myFavoriteThings = ["cats", "javascript", "programming", "bikes", "art"]; 

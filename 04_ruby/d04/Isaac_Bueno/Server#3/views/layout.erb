@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sinatra static HTML</title>
+    <link rel='stylesheet' href= '/style/main.css'>
+    <script src ='/scripts/app.js'></script>
+  </head>
+  <body>
+
+    <header>
+      <h1 class= 'nameofco'>Bluth Construction Co.</h1>
+      <em>Showing off ERB's awesomeness and some construction things....</em>
+      <hr>
+    </header>
+
+    <nav class="navbar">
+      <ul>
+        <li class="infonav"><a href="#home">HOME</a>
+        <li class="infonav"><a href="#about">ABOUT</a></li>
+        <li class="infonav"><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <hr>
+
+<%= yield %>
+
+
+
+<footer>
+  <hr>
+  &copy; 2015. Bluth Construction Co. & Embedded Ruby (ERB)
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+
+    <h2>Welcome! Please register!</h2>
+
+
+    <% if @message.nil? == false %>
+      <span class='error'><%= @message %></span>
+    <% end %>
+
+
+    <%= form_for :user, url: '/users/confirmation' do |f| %>
+
+      Name: <%= f.text_field :username %>
+      Email: <%= f.text_field :email %>
+      Password: <%= f.password_field :password %>
+      Confirm password: <%= f.password_field :password_confirmation %>
+
+      <%= f.submit 'Create Account' %>
+
+    <% end %>
+
+  </div>
+</div>

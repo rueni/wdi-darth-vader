@@ -1,0 +1,21 @@
+<h2>About</h2>
+<h4>Who are you really???</h4>
+<p> </p>
+
+<script>
+	$(document).ready(function() {
+		var p = $('p'); 
+		$.ajax({
+			type: 'get',
+			dataType: 'json',
+			url: '/api/json',
+			success: function(data) {
+				$(p).html('I am an ' + data.age + ' ' + data.about + ' who enjoys:  ' + data.favorites.join(', '));
+			},
+			error: function(err) {
+				console.log(err);
+				$(p).html('ERRAWWWWRRRR'); 
+			}
+		});
+	}); 
+</script> 

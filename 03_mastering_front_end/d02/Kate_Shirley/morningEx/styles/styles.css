@@ -1,0 +1,10 @@
+#block_one {
+  width: 99%;
+  height: 300px;
+  background-color: lightblue; }
+  #block_one h1 {
+    color: brown; }
+  #block_one h2 {
+    color: red; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,10 @@
+//What is the purpose of a loop
+
+1.  A loop is used to cycle through data(stored in variables) in order to apply operations to the data in a specified order for a set amount of cycles.
+
+var arrayStrings = [‘taco’, ‘burger’, ‘ricky’]
+
+var arrayNumbers = [4, 5, 3, 7]
+
+var arrayMixed = [‘jimbo’, 2, ‘america’, 4]
+

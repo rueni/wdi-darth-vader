@@ -1,0 +1,12 @@
+<div class="test">
+
+
+<ul>
+  <% @songs.each do |song| %>
+  <li>
+  <%= song.artist %> released <%= song.title %> in <%= song.release_year %>
+  <% end %>
+  </li>
+</ul>
+
+</div>

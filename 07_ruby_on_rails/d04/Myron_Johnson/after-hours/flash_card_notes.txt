@@ -1,0 +1,16 @@
+Flashcar App
+
+flash card model
+  id
+  question
+  answer
+  language
+  category
+
+
+
+return a question (start with a random question)
+have the question be in one div
+have the answer be in a hidden div
+create a button or swipe feature to show the answer
+mark whether you know the answer or not

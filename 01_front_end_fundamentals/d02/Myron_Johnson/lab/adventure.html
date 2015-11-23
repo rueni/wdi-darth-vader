@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <title>Build your own adventure!</title>
+  </head>
+  <body>
+
+    <script>// type="text/javascript">
+    var storyArray = [];
+    storyArray[0] = prompt('What is your name?');
+    storyArray[1] = prompt('What is your age?');
+    chicagoNative = confirm('Are you from Chicago?');
+    if (chicagoNative) {
+      storyArray[2] = 'were';
+      storyArray[7] = 'forgot';
+    } else {
+      storyArray[2] = 'were not';
+      storyArray[7] = 'didn\'t know';
+    }
+    spearsFan = confirm('Are you a Brittney Spears fan?');
+    if (spearsFan) {
+      storyArray[3] = 'Brittney Spears jumped out and started to sing Happy Birthday!';
+    } else {
+      storyArray[3] = 'Freddie Krueger jumped out and flashed his glove with long, sharp knives.';
+    }
+    storyArray[4] = prompt('What is your favorite exercise?');
+    storyArray[5] = prompt('What is your favorite color?');
+    storyArray[6] = prompt('What is your normal form of transportation, driving, biking,  or walking?');
+    //console.log(storyArray);
+    console.log(storyArray[0] + ' and friends were ' + storyArray[6] + ' to the hardware store.  As ' + storyArray[0] + ' and friends arrived at the store, they saw a ' + storyArray[5] + ' box on the ground blocking the entrance to the store.  When ' + storyArray[0] + ' approached it, ' + storyArray[3] + ' This scared ' + storyArray[0] + ' and they started ' + storyArray[4]+ ' .Because ' + storyArray[0] + ' and friends ' + storyArray[2] + ' from Chicago, they ' + storyArray[7] + ' that this happens every Tuesday, when the moon\'s phase was ' + storyArray[1] + ' days old according to the Klingon calendar.');
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<h1> Testing from json_test</h1>
+
+<script>
+  $(document).ready(function() {
+    $.ajax({
+      type: 'get',
+      dataType: 'json',
+      url: '/',
+      success: function(data) {
+        console.log(data);
+        $('h1').first().after('<h3>/</h3><p>'+ data.name + '<br>' + data.message + '</p>');
+      },
+      error: function(err) {
+        console.log(err);
+      }
+    });
+    $.ajax({
+      type: 'get',
+      dataType: 'json',
+      url: '/about',
+      success: function(data) {
+        console.log(data);
+        $('p').eq(0).after('<h3>/about</h3><p>'+ data.about + '<br>' + data.age + '<br>' + data.favorites + '</p>');
+      },
+      error: function(err) {
+        console.log(err);
+      }
+    });
+    $.ajax({
+      type: 'get',
+      dataType: 'json',
+      url: '/contact',
+      success: function(data) {
+        console.log(data);
+        $('p').eq(1).after('<h3>/contact</h3><p>'+ data.name + '<br>' + data.email + '<br>' + data.thanks + '</p>');
+      },
+      error: function(err) {
+        console.log(err);
+      }
+    });
+  });
+
+</script>

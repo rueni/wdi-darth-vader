@@ -1,0 +1,108 @@
+body {
+  font-family: serif, sans-serif;
+  margin:  0px;
+}
+
+#wrapper {
+  width:  90%;
+  margin:  15px auto;
+}
+#logo {
+  width: 20%;
+  float: left;
+  height: 70%;
+  border:  1px solid purple;
+  margin-left: auto;
+  margin-top: 10px;
+
+}
+
+header {
+  width: 100%;
+  border:  3px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height:  100px;
+}
+
+
+.menu ul  {
+
+  padding:  0px;
+}
+
+.menu li  {
+  display:  inline-block;
+  list-style: none;
+  float:right;
+  width: 15%;
+  height: 35%;
+  border: 2px solid black;
+  margin-left: 5fcfpx;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/*section*/
+#left {
+  border:  3px solid purple;
+  width:  30%;
+  height:  180px;
+  margin-left: auto;
+  margin-right: auto;
+  float:  left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  }
+
+#right{
+    border:  3px solid purple;
+    width:  30%;
+    height:  180px;
+    margin-left: auto;
+    margin-right: auto;
+    float:  right;
+    margin-top: 10px;
+}
+/*aside*/
+#center{
+    border:  3px solid purple;
+    width:  30%;
+    height:  180px;
+    margin-left: 10px;
+    margin-right: 35px;
+    float: right;
+    margin-top: 10px;
+}
+
+#leftsection {
+    border:  3px solid red;
+    width:  47%;
+    margin-left: auto;
+    margin-right: auto;
+    height:  400px;
+    margin-top: 10px;
+    float: left;
+  }
+
+#rightsection {
+      border:  3px solid red;
+      width:  47%;
+      margin-left: auto;
+      margin-right: auto;
+      height:  400px;
+      margin-top: 10px;
+      float:  right;
+  }
+
+  footer {
+    clear:  both;
+    border:  3px solid lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    height:  90px;
+    margin-top: 15px;
+
+  }

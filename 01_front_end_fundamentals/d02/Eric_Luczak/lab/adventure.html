@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <title>Build your own adventure!</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+var name;
+if (name == "Zelda") {
+  window.open('http://www.zelda.com/ocarina3d/');
+}
+
+var newArray = {
+  "specificNoun" : "",
+  "adjective1": "",
+  "verb": "",
+  "noun": "",
+  "enemy": ""};
+
+name = prompt("What is your name??");
+newArray ["specificNoun"] = prompt("Enter a specific noun!");
+newArray ["adjective1"] = confirm("Are you here to kick ass?");
+newArray ["verb"] = prompt("Enter a verb like run or fight!");
+newArray ["noun"] = prompt("Enter a job profession!");
+newArray ["enemy"] = prompt("who or what is your evil enemy?");
+
+if (newArray["adjective1"]== true){
+  newArray ["adjective1"] = "kick ass";
+} else {
+  newArray ["adjective1"] = "go home";
+}
+
+
+console.log("Hello, my name is " +
+newArray["specificNoun"] +
+" and I am here to " + newArray["adjective1"] +
+" and " + newArray["verb"] +
+". I will show no mercy when dealing with the evil"
++ newArray["enemy"] + ". All in a day's work as a " + newArray["noun"] + ".");
+
+
+
+
+
+
+    </script>
+  </body>
+</html>

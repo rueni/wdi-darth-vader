@@ -1,0 +1,70 @@
+@import 'variables.scss'; 
+
+
+body {
+	font-size: $base-page-size;
+	background: $body-background; 
+}
+
+#wrapper { 
+	width: $wrapper-phone; 
+	background: $content-background;
+	margin: auto;
+	padding: $font-size-standard; 
+}
+
+#phone {
+	display: none;
+	background-color: magenta; 
+}
+
+#tablet {
+	display: none;
+	background-color: lime;
+}
+
+#laptop {
+	display: none;
+	background-color: crimson; 
+}
+
+//media queries 
+
+@media (min-width: $device-phone) {
+	#phone {
+		display: block; 
+	}
+}
+
+@media (min-width: $device-tablet) {
+
+	#wrapper {
+		width: $wrapper-tablet; 
+	}
+	#phone {
+		display: none; 
+	}
+	#tablet {
+		display: block; 
+	}
+	.nav-item {
+		display: inline-block; 
+		list-style: square;
+		padding: $font-size-standard;
+	}
+}
+
+@media (min-width: $device-laptop) {
+	#wrapper {
+		width: $wrapper-laptop; 
+	}
+	#phone {
+		display: none; 
+	}
+	#tablet {
+		display: none; 
+	}
+	#laptop {
+		display: block;
+	}
+}

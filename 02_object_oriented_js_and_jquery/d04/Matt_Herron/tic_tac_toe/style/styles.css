@@ -1,0 +1,58 @@
+body {
+  background-color: #efefef;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+  background-color: #999;
+  border: 0;
+  margin: 0 10px 10px 0;
+  box-shadow: 0px 4px #777;
+  font-size: 9em;
+  font-family: Courier;
+  text-shadow: 0px 3px 3px #aaa;
+  transition: background-color 0.1s, box-shadow 0.1s;
+}
+
+h1, h3 {
+  text-align: center;
+  color: #888;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 4em;
+  margin: 0.1em 0;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+#currentplayer {
+  color: #ef7676;
+}
+
+.inactive {
+  background-color: #efefef;
+  box-shadow: 0px 4px #dadada;
+}
+
+.wrapper {
+  padding: 60px;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 12px solid #aaa;
+  background-color: #fefefe;
+}
+
+table {
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: lightgrey;
+  box-shadow: 0px 4px #aaa;
+}
+
+.winner {
+  background-color: #CCF5CC;
+}

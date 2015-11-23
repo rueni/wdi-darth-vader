@@ -1,0 +1,21 @@
+<h1>If this works the text you are reading will be displayed onto your screen and since you are reading, you know it works.</h1>
+
+<script>
+
+$(document).ready(function)({
+  var p = $('p');
+  $.ajax({
+    type: 'GET',
+    dataType: 'JSON',
+    url: '/about',
+    success: function(data) {
+      console.log(data);
+      $(p).html(data.message);
+    },
+    error: function (err) {
+      console.log(err);
+      $(p).html('An error occured');
+    }
+  });
+});
+</script>

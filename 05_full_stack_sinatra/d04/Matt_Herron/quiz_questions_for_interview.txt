@@ -1,0 +1,32 @@
+QUIZ
+====
+
+1. When I create a brand new application, what is the first thing I start working on?
+    ERD / Database / Model
+
+2. Which part of my application is persistent?
+    Database (Persistence Layer)
+
+3. When designing the following part of MVC, I will likely work with designers and researchers for best results
+    Views (Presentation Layer)
+
+4. If I were a front-end developer, what are the technologies I would use day to day?
+    HTML, CSS, JavaScript, SASS/LESS
+
+5. If I were a back-end developer, what are the primary technologies that I would be working on day to day?
+    programming languages, Databases, ORMs, Frameworks, source control
+
+6. In my own words, what is a real life analogy for MVC?
+    translator
+
+7. What library on the client side makes DOM manipulation a breeze?
+    jQuery
+
+8. In CSS, we are given tags, ids and classes, what are the primary differences?
+    classes are for 1 or more and ids are singular
+
+9. If I were to begin building a boilerplate, what would I be doing?
+    Creating a reusable template to serve as foundation for a new project.
+
+10. What is the difference between an AJAX request and a postback?
+    AJAX keeps you on same page, post back refreshes or moves you to new page.

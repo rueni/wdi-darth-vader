@@ -1,0 +1,13 @@
+CREATE TABLE students (id SERIAL PRIMARY KEY, name varchar(255), email varchar(255));
+
+-- attribute and what it's going to be
+
+INSERT INTO students (name, email)
+VALUES
+('Joe', 'jgreen@gmail.com');
+
+SELECT * FROM students;
+
+SELECT FROM students WHERE name = 'Joe';
+
+DELETE FROM students WHERE id = 1;

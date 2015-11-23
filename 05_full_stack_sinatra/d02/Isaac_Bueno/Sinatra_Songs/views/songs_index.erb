@@ -1,0 +1,11 @@
+<h3> Some good songs from my Spotify playlist</h3>
+
+<ol>
+  <% @songs.each do |song| %>
+
+  <li>
+    <%= song.hit %> is a <%= song.artist %> song from the album, <%= song.title %>.
+  </li>
+
+  <% end %>
+</ol>

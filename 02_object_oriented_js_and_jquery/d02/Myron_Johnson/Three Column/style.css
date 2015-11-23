@@ -1,0 +1,62 @@
+body {
+  font-family: "Calibri", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 95%;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: lightgray;
+  height: 70px;
+  margin-bottom: 5px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+nav {
+  background-color: lightgray;
+  width: 14%;
+  height: 800px;
+  margin: 0 .5% 0 0;
+  float: left;
+}
+
+section {
+  background-color: lightgray;
+  width: 60%;
+  height: 800px;
+  margin: 0 auto;
+  float: left;
+}
+
+aside {
+  background-color: lightgray;
+  width: 25%;
+  height: 800px;
+  margin: 0 0 0 .5%;
+  float: right;
+}
+
+footer {
+  margin-top: 5px;
+  background-color: lightgray;
+  height: 25px;
+}

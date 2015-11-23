@@ -1,0 +1,8 @@
+Database name: coupons
+Table name: couponslist
+Table info:
+  id
+  title
+  product
+  discount
+  exp_date

@@ -1,0 +1,89 @@
+@import 'variables.scss';
+
+//target the DOM
+body {
+  font-size: $base-page-size;
+  background-color: $body-background;
+}
+.wrapper {
+  background-color: $content-background;
+  width: $wrapper-phone;
+  border-radius: $radius;
+  margin: auto;
+  padding: $font-size-standard;
+}
+
+.phone {
+  display: none;
+  background-color: magenta;
+}
+
+.tablet {
+  display: none;
+  background-color: orange;
+}
+
+.desktop {
+  display: none;
+  background-color: pink;
+}
+
+//media queries
+@media (min-width: $device-phone) {
+  .wrapper {
+    width: $wrapper-phone;
+  }
+  .phone {
+    display: block;
+  }
+  .tablet {
+    display: none;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: $device-tablet) {
+  .wrapper {
+    width: $wrapper-tablet;
+  }
+  .phone {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  nav ul {
+    list-style-type: circle;
+  }
+
+  .nav-item {
+    display: inline-block;
+    border-bottom: 1px solid black;
+  }
+}
+
+@media (min-width: $device-desktop) {
+  .wrapper {
+    width: $wrapper-desktop;
+  }
+  .phone {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}

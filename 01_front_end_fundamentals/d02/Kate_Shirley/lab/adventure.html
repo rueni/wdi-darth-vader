@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Choose your own adventure!</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+   confirm("Are you ready to choose your adventure?");
+    var a = prompt ("Pick 1, 2, or 3");
+    var b = prompt ("How old do you wish you were?");
+    var c = prompt ("What's your name?");
+    var d = prompt ("What's your favorite animal?");
+
+    Console.log ("You thought it was good news... ");
+
+    //story part 1
+
+    if (a === 1) {
+      console.log ("You won a gondola ride ");
+    }
+    else if (a === 2) {
+      console.log ("You won a safari ");
+    }
+    else  {
+      console.log ("You won a magic carpet ride ");
+    }
+
+    //story part 2
+
+    if (b <= 18) {
+      console.log ("in North Korea, of all places. ");
+    }
+    else if (b <= 29) {
+      console.log ("in Antartica, of all places. ");
+    }
+    else  {
+      console.log ("in North Dakota, of all places. ");
+    }
+
+    //story part 3
+
+    if (c.length < 4) {
+      console.log ("Then, while on your trip you were attacked by a hangry cat! ");
+    }
+    else if (c.length < 7) {
+      console.log ("Then, while on your trip you were attacked by a band of misfit toys! ");
+    }
+    else  {
+      console.log ("Then, while on your trip you were attacked by an old woman with a heavy purse! ");
+    }
+
+
+  //story part 4
+
+  if (d.length < 4) {
+    console.log ("To heal you, a shaman gave you a magic elixer. ");
+  }
+  else if (d.length < 7) {
+    console.log ("To heal you, your tour guide gave you a magic elixer. ");
+  }
+  else  {
+    console.log ("To heal you, a local child gave you a magic elixer. ");
+  }
+
+  //story part 5
+
+  var e = confirm ("Do you take the elixer?")
+  if (e === true) {
+    console.log ("You lived to tell your tale to hundreds of adoring fans.");
+  }
+  else  {
+    console.log ("Unfortunately you died. SORRY");
+  }
+
+  var myArray=[a,b,c,d,e]
+
+  console.log ("This time, you picked: " + myArray + " Better luck next time!"
+
+
+
+    </script>
+  </body>
+</html>

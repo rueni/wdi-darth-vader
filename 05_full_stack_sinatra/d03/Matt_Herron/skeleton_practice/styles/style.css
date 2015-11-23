@@ -1,0 +1,19 @@
+.container {
+  max-width: 100%;
+  width: 100%;
+}
+
+.first {
+  background-image: url('../triangle-background-17.png');
+  background-position: top;
+  background-size: cover;
+  font-size: 3rem;
+}
+
+.big {
+  padding: 20% 0 20% 0;
+}
+
+.plug {
+  color: rgb(255, 255, 255);
+}

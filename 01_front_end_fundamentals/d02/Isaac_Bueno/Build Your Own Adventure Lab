@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <title>Build your own adventure!</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+/*  confirm("are you ready to go on this adventure?");
+  var age = prompt("How old are you?")
+    if (age < 10) {
+      console.log("sorry kid, this is the wrong adventure for you.");
+    } else {
+      console.log("Come on in. Lets start the adventure.");
+    }
+    console.log("Snow White and Batman were hanging out at the bus stop, waiting to go to the shops. There was a sale on and both needed some new threads. You've never really liked Batman. You walk up to him.");
+    console.log("Batman makes an NASTY face at you.");
+
+      var userAnswer = prompt("We got a problem?");
+      if userAnswer === "yes" {
+        console.log("you begin to scrap with Batman. He starts off strong and things get really weird. You lost the fight because you are fighting with Batman of course.")
+      } else {
+        console.log("Good call. Batman would have beat the snot out of you. It's better to be alive then to look like a straight up fool in front of everyone.")
+      }*/
+
+
+  /*var one=[];
+    one[0] = prompt("What did someone ask you today?");
+    one[1] = prompt("What did you encounter today?");
+    one[2] = prompt("What skill did you have to use today?");
+    one[3] = prompt("You had to escape the clutches of ______ today?");
+    one[4] = prompt("What did you drink today?");
+    one[5] = prompt("What is your worst nightmare for a job?");
+
+    console.log("On my way to school today, I was asked " + " "+ one[0] + "?" + "!" + " On my way to class, I encountered " + one[1] + "!" + " I had to use my " + one[2] + " to escape the horrible clutches of " + one[3] + "!" + "Finally you made it to school and had a hot cup of " + one[4] + ". All in a day's work as a " + one[5] + "!");
+    */
+
+    var a=[]
+
+    a[0] = prompt("your moms name");
+    a[1] = prompt("your dad's name");
+    a[2] = prompt("your dogs name");
+     console.log("Today I met a turtle named" + a[0]) + ". The turtle had a friend who kept pooping. He was a furry creature and his name was" + a[1] ". I asked where there owner was and they didnt know but they knew his name. His name was " + a[2] ".");
+     
+
+    </script>
+  </body>
+</html>

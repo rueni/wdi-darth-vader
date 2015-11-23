@@ -1,0 +1,14 @@
+<h3>Playlist</h3>
+
+
+<ul>
+
+  <% @songs.each do |song| %>
+
+  <li>
+    Artist: <%= song.artist %> | Album: <%= song.album %> | Song: <%= song.title %> | Released on: <%= song.released %> | Rating: <%= song.rating %>
+  </li>
+
+  <% end %>
+
+</ul>

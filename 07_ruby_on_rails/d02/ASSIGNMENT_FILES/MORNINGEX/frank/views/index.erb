@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MorningEx</title>
+  </head>
+  <body>
+
+    <ul> <h1>Movies</h1>
+      <% @movies.each do |movie| %>
+          <%= '<li>' + movie + '</li>' %>
+      <% end %>
+    </ul>
+
+    <br>
+
+    <ul> <h1>Songs</h1>
+      <% @songs.each do |song| %>
+          <%= '<li>' + song + '</li>' %>
+      <% end %>
+    </ul>
+
+    <br>
+
+    <ul> <h1>People</h1>
+      <% @people.each do |person| %>
+          <%= '<li>' + person + '</li>' %>
+      <% end %>
+    </ul>
+
+  </body>
+</html>

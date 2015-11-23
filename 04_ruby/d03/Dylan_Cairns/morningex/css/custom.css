@@ -1,0 +1,35 @@
+html {
+  background: url("https://unsplash.imgix.net/photo-1433840496881-cbd845929862?dpr=2&fit=crop&fm=jpg&q=75&w=1050") no-repeat center center fixed; }
+
+body {
+  font-family: Verdana, sans-serif;
+  color: #424e52; }
+
+section {
+  margin: 10% auto;
+  text-align: center; }
+
+form {
+  margin: 0 auto;
+  width: 20%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 20px; }
+
+input {
+  transition: padding 1s; }
+
+input:focus {
+  background-color: #ffe524;
+  padding: 18px; }
+
+button[type="submit"] {
+  background-color: #5d6e74;
+  border-radius: 10px;
+  border: 1px solid black;
+  min-width: 200px;
+  color: white; }
+
+/*# sourceMappingURL=custom.css.map */

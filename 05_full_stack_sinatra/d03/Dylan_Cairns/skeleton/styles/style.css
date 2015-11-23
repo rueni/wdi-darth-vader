@@ -1,0 +1,13 @@
+.first {
+  background-color: slateblue;
+  color: lightblue;
+  font-size: 3rem;
+  margin: 5px 0 5px 0;
+}
+
+.second {
+  background-color: lightblue;
+  color: slateblue;
+  font-size: 3rem;
+  margin: 5px 0 5px 0;
+}

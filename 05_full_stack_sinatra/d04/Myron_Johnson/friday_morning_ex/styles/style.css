@@ -1,0 +1,11 @@
+header {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0,0,0,.5);
+  position: fixed;
+}
+
+.wrapper {
+  position: relative;
+  top: 7rem;
+}

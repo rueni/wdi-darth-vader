@@ -1,0 +1,84 @@
+<h1>Jim Haff</h1>
+<section>
+  <p class="heyBuddy">
+
+  </p>
+</section>
+<script>
+  $(document).ready(function() {
+
+    $.ajax ({
+
+      type: 'get',
+      dataType: 'json',
+      url:  '/api/home_json',
+      success:  function(data) {
+        console.log(data);
+
+        data.creature = 'Jimbo';
+
+        $('.heyBuddy').html(data.name + " " + data.message + " " + data.creature)
+
+
+      },
+      error: function(error) {
+        console.log(error);
+        $('h1').html("an error occured")
+      }
+  });//end of ajax
+
+function getRandomNumber(min, max) {
+    var a = Math.ceil(Math.random() * (max - min)) + "px";
+    if (parseInt(a) === 3) {
+      console.log(3);
+      $("body").css("background", "url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQN0yTJTDHeTVrhs5JmR2Aq6l0oAsJk7cVInhLf5ici6GeMsova')")
+      $("p").css("color", "black").css("margin", "5px)")
+      $("section").css("height", "300px").css("textAlign", "center").css("border", "5px dotted purple").css("width", "60%").css("background", "rgb(143, 22, 45)").css("margin-left", "30%")
+      $("h1").css("color", "black").css("textAlign", "center)").css("margin-left", "20%").css("background", "rgb(227, 185, 36)")
+      $("footer").css("color", "rgb(55, 22, 152)").css("float", "clearboth").css("textAlign", "right")
+    }
+    else if(parseInt(a) ===2) {
+      console.log(2);
+      $("body").css("background", "url('http://rpgmaker.net/media/content/users/7125/locker/mbpanel.jpg')")
+      $("section").css("height", "300px").css("textAlign", "center").css("border", "3px dotted pink").css("width", "50%").css("background", "rgb(83, 82, 45)").css("margin-left", "30%")
+      $("p").css("color", "rgb(43, 12, 52)").css("margin", "13px")
+      $("h1").css("color", "rgb(92, 17, 17)").css("textAlign", "center)").css("margin-left", "15%").css("background", "rgb(46, 224, 197)")
+      $("footer").css("color", "rgb(216, 223, 20)").css("float", "clearboth").css("textAlign", "right").css("textAlign", "left")
+
+    }
+    else if (parseInt(a) === 1) {
+      console.log(1);
+      $(".heyBuddy").append("<p>Im a big jimbo</p>");
+      $("body").css("background", "url('http://i44.tinypic.com/24pgewh.jpg')")
+      $("p").css("color", "rgb(38, 123, 149)").css("margin", "30px")
+      $("section").css("height", "100px").css("textAlign", "center").css("border", "6px solid rgb(28, 68, 196)").css("width", "50%").css("background", "rgb(43, 82, 45)").css("margin-left", "35%")
+      $("h1").css("color", "rgb(54, 9, 34)").css("textAlign", "center)").css("margin-left", "20%").css("background", "rgba(214, 166, 209, 0.55)")
+      $("footer").css("color", "rgb(104, 163, 110)").css("float", "clearboth").css("textAlign", "center")
+
+    }
+    else if (parseInt(a) === 4) {
+      console.log(4);
+      $("body").css("background", "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo-eLCkbtfo1dD2v_Qg9BpTffgSd1i1I2vXcTt0aLU8zzGZO0b')").css("margin-left", "35%")
+      $("p").css("color", "rgb(196, 134, 67)").css("margin", "20px")
+      $("section").css("height", "250px").css("textAlign", "center").css("border", "3px solid rgb(170, 39, 27)").css("margin", "50%").css("width", "50%").css("background", "rgb(43, 102, 120)").css("margin-left", "10%")
+      $("h1").css("color", "rgb(57, 140, 18)").css("textAlign", "center)").css("margin-left", "15%").css("background", "rgba(213, 149, 40, 0.78)")
+      $("footer").css("color", "rgb(37, 159, 101)").css("float", "clearboth").css("textAlign", "right")
+    }
+   return parseInt(a);
+
+  }
+
+  $("h1").click(function(){
+
+
+    $("h1").animate({
+      width: "70%",
+      fontSize: getRandomNumber(0, 4) + 'em',
+      duration: 1000
+
+    });
+  });
+});//end of document.ready
+
+
+</script>

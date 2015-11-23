@@ -1,0 +1,14 @@
+<h2>Edit Movie #<%= @movie.id %></h2>
+
+<form action="/movies/edit" method="post">
+  <input type="hidden" name="id" value="<%= @movie.id %>">
+  <input type="text" name="title" value="<%= @movie.title%>">
+  <input type="text" name="director" value="<%= @movie.director%>">
+  <input type="text" name="date_released" value="<%= @movie.date_released%>">
+  <input type="submit" value="Edit the movie!">
+</form>
+
+<form action="/movies/delete" method="post">
+  <input type="hidden" name="id" value="<%= @movie.id %>">
+  <input type="submit" value="Delete Movie">
+</form>

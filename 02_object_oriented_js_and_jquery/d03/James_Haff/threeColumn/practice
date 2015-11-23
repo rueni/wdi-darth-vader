@@ -1,0 +1,42 @@
+//List Function The same exercise as we just did with the beer list but with your own lists.
+
+
+
+
+
+//Define a function max() Takes two numbers as arguments Use a conditional statement to find the larger of the two console.log or //document.write the result
+
+function getMaxNum(num1, num2) {
+      if (num1 > num2) {
+      console.log(num1 + " is greater!");
+
+}else {console.log(num2 + " is greater!");
+
+}
+
+
+}// this is the end of my function
+
+//Tell some fortunes with function named futureTeller() //Takes in 4 arguments (name, job, salary, location) //outputs to console or in document a string like "Tom //will be supreme ruler of the world making infinity //dollars living in the Space Needle"
+var fortune = function (name, job, salary, location) {
+     this.name = name;
+     this.job = job;
+     this.salary = salary;
+     this.location = location;
+
+
+    this.geney = function () {console.log(this.name + " will be a " + this.job + " making " + this.salary + " in " + this.location);
+  }
+
+}
+var jim = ("jim", "programmer", "60000", "seattle");
+
+
+
+var myQuotes = ["To be or not to be", "The only thing we have to fear is fear itself", "Give me liberty or give me death"] ;
+
+
+
+  for (i=0; i < myQoutes.length; i++)
+    var myRandom = Math.floor(Math.random()*myQuotes.length);
+    console.log(myRandom;)

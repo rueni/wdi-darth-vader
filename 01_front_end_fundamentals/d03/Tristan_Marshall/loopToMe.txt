@@ -1,0 +1,5 @@
+What is the purpose of a loop? 
+
+A loop is a way to quickly go through and process content/properties over and over again if needed while assigning a different value, or applying a specific condition. 
+
+This concept is becoming not so foreign to me but I still have a ways to go. I plan on spending some time this weekend on this logic.

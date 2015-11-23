@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	function sum(numbers, twiceOrHalf) {
+	total = 0; 
+	for (var i = 0; i < numbers.length; i++) {
+			total += numbers[i];
+		}
+	if (twiceOrHalf) { 
+		var i = total*total; 
+		console.log(i);
+		return i; 
+	} else if (!twiceOrHalf) {
+		var i = total*total; 
+		return i; 
+	} else {
+		console.log(total); 
+		return total; 
+	}
+}
+
+/* your code ends here */
+
+//Question 2 check
+var nums = [2, 4, 6];
+if (sum(nums) !== 12 || sum(nums, false) !== 6 || sum(nums, !undefined) !== 24) {
+  console.log("check question 2");
+}
+	</script>
+</body>
+</html>

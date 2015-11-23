@@ -1,0 +1,28 @@
+#wrapper{
+background-image: url(http://static2.1ms.net/dubai-desktop-background-501719.jpg);
+background-size:cover;
+margin: auto;
+width: 99%;
+margin: 0 auto;
+padding:75%;
+
+section{
+margin: 0 auto;
+width: 40%;
+background- color: rgba
+border-radius: 15px;
+}
+
+#formbox{
+margin:0 auto
+width:75;
+padding:10px
+}
+
+#input{
+width:100%;
+margin: 0 auto;
+padding:10px;
+font-family: Verdana, sans-serif;
+border-radius: 10px;
+}

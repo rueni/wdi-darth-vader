@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+
+    <h2>User Login</h2>
+
+    <% if @message.nil? == false %>
+      <span class='error'><%= @message %></span>
+    <% end %>
+
+
+    <%= form_tag '/users/logged_in' do %>
+
+      Email: <%= text_field_tag :email %>
+      Password: <%= password_field_tag :password %>
+      <%= submit_tag 'Login!' %>
+
+    <% end %>
+
+  </div>
+</div>

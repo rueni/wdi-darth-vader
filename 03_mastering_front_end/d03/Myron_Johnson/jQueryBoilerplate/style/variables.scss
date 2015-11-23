@@ -1,0 +1,28 @@
+// colors variables
+$body-text: black;
+$body-background: lime;
+$body-emphasis: navy;
+$body-sub: darkgray;
+$content-background: white;
+
+// fun
+$radius: 15px;
+
+// font sizes
+$base-page-size: 16px;
+// using rem this will set the rem base size to
+// what your base page size is
+$font-size-standard: 1rem; // = 16px
+$font-size-headline: 3rem; // = 3 * 1rem or 48px
+$font-size-byline: 1.5rem; // = 1.5 * 1rem or 24px
+$font-size-subtext: 0.75rem; // = .75 * 1rem or 12px
+
+//devices
+$device-phone: 320px;
+$device-tablet: 700px;
+$device-laptop: 1200px;
+
+// wrappers
+$wrapper-phone: 85%;
+$wrapper-tablet: 90%;
+$wrapper-laptop: 960px;

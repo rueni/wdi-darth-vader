@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <title>Build your own adventure!</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+    // add your custom Javascript here
+
+    var choices = []; 
+	var questions = ['name', 'place', 'animal', 'adjective', 'thing', 'second thing','verb', 'second animal']; 
+
+	var verify = confirm("Are you ready to start your adventure?!");
+
+	if (verify) {
+		for (var i =0; i < 9; i++) {
+			choices[i] = prompt("pick a: " + questions[i]); 
+		}
+
+		var story = choices[0] + " was walking in the " + choices[1] + " when all of the sudden a wild " + choices[2] + " jumped out of the brush. It was " + choices[3] + " and began to charge right at you. You frantically search your " + choices[4] + " for a " + choices[5] + " and prepared for a battle to the death. However, once the " + choices[6] + " got close enough it stopped and " + choices[7] + " and then crystalized into a tiny " + choices[8] + " and became your best companion for life.";
+
+		if (choices[0] === 'alternate') {
+			var newStory = story.split(' ');
+			newStory = newStory.join('___');
+			console.log(newStory)
+		} else {
+			console.log(story); 
+		}
+
+	} else {
+		alert("Too bad... no story for you."); 
+	}
+     
+
+     
+    </script>
+  </body>
+</html>

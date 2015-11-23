@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  border: 0;
+  background-color: grey;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+article, aside {
+  height: 400px;
+  border: 0;
+  background-color: grey;
+}
+
+.left {
+  width: 14%;
+  margin-right: 1%;
+  float: left;
+}
+
+.right {
+  width: 14%;
+  margin-left: 1%;
+  float: left;
+}
+
+.primary {
+  width: 70%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+footer {
+  width: 100%;
+  border: 0;
+  background-color: grey;
+  height: 100px;
+  margin-top: 10px;
+  clear: left;
+}

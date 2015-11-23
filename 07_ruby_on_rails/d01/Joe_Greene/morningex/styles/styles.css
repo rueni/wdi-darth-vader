@@ -1,0 +1,24 @@
+.side{
+  width: auto;
+  padding: 10px;
+  border: dashed 2px
+  float: left;
+}
+
+.center{
+  width: auto;
+  border-color: #333333;
+  float: left;
+}
+
+.last{
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 26px;
+  float: left;
+
+}
+
+@media query {
+  max-width: 500px;
+}

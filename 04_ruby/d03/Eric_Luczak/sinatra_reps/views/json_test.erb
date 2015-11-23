@@ -1,0 +1,60 @@
+<h2>This is the json_test.erb file</h2>
+<h3>My json objects should appear underneath here!!</h3>
+<hr>
+<p>
+
+</p>
+<hr>
+
+
+<script>
+  var p = $('p');
+
+  $.ajax({
+    type: 'get',
+    dataType: 'json',
+    url: '/index',
+    success: function (data) {
+      console.log(data);
+      for (var inc in data) {
+      $(p).append(data[inc] + '<br>');
+    };
+    },
+    error: function (err) {
+      console.log("It's dead Jim!!");
+    }
+  });
+
+  $.ajax({
+    type: 'get',
+    dataType: 'json',
+    url: '/about',
+    success: function (data) {
+      console.log(data);
+      for (var inc in data) {
+      $(p).append(data[inc] + '<br>');
+    };
+    },
+    error: function (err) {
+      console.log("It's dead Jim!!");
+    }
+  });
+
+  $.ajax({
+    type: 'get',
+    dataType: 'json',
+    url: '/contact',
+    success: function (data) {
+      console.log(data);
+      for (var inc in data) {
+      $(p).append(data[inc] + '<br>');
+    };
+    },
+    error: function (err) {
+      console.log("It's dead Jim!!");
+    }
+  });
+
+
+
+</script>

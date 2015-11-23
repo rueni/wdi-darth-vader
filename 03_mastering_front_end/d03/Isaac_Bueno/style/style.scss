@@ -1,0 +1,82 @@
+@import 'variables.scss';
+
+
+//max-width: 480px;
+//min-width: 320px
+//default wrapper width is between 960-1200
+//tablet:width: 700px;
+//laptop width: 1200px;
+
+//target the dom
+body {
+  font-size: $base-page-size;
+  background: $body-background;
+  margin: 0;
+}
+
+//320x480 iphone size
+#wrapper {
+  width: $wrapper-phone;
+  margin: auto;
+  border-radius: $radius;
+  background: $content-background;
+  padding: $font-size-standard;
+}
+
+
+//display
+#phone{
+  display:none;
+  background:magenta;
+}
+
+#tablet {
+  display:none;
+  background: lime;
+}
+
+#laptop {
+  display: none;
+  background: orange;
+}
+
+//media queries for responsive design
+@media (min-width: $device-phone) {
+  #wrapper {
+    width: $wrapper-phone;
+  }
+  #phone {
+    display:block;
+  }
+}
+@media (min-width: $device-tablet) {
+  #wrapper {
+    width: $wrapper-tablet;
+  }
+  #phone {
+    display: none;
+  }
+  #tablet {
+    display:block;
+  }
+  .nav-item {
+    display: inline-block;
+    list-style: square;
+    border-bottom: 1px;
+    padding: $font-size-standard;
+  }
+}
+@media (min-width: $device-laptop) {
+  #wrapper {
+    width: $wrapper-laptop;
+  }
+  #phone {
+    display: none;
+  }
+  #tablet {
+    display: none;
+  }
+  #laptop {
+    display:block;
+  }
+}

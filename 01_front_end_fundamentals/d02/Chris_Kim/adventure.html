@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Build your own adventure!</title>
+  </head>
+  <body>
+    <h1> Madlibs!</h1>
+    <p>
+    </p>
+  </body>>
+<script type="text/javascript">
+
+// I went for a jog today and saw a man chasing a dog chasing a squirrel.
+
+var noun = [];
+var verb = [];
+
+  function nounArray() {
+    for(i = 0; i < 4; i++) {
+      noun[i] = prompt("Enter a noun");
+    }
+  }
+
+  function verbArray() {
+    for(i = 0; i < 2; i++) {
+      verb[i] = prompt("Enter a verb");
+    }
+  }
+
+function result() {
+  adventure = alert("I went for a " + noun[0] + " today and saw a " + noun[1] + " " + verb[0] + "a " + noun[2] + " " + verb[1] + " a " + noun[3]);
+return adventure;
+}
+
+var confirmation = confirm(result());
+nounArray()
+verbArray()
+if (confirmation != null) {
+  alert("Your words are valid")
+  result();
+  }
+  else {
+    alert("Something went wrong - Start over")
+  }
+
+</script>
+</html>

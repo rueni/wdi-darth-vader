@@ -1,0 +1,44 @@
+rails g controller sessions new create delete
+
+go to contoller sessions
+
+
+
+go to routes change to
+get 'users/login' => 'sessions#new'
+post 'sessions/create' => 'sessions#create'
+get  'users/logout' => 'sessions#delete'
+
+
+go to terminal
+rake routes
+to see all the routes debug
+
+go to session controller
+find by email rails helper to help us
+
+
+
+views users new
+copy <% if @message.nil? == false %>
+  <strong><%= @message %></strong>
+  <% end %>
+  paste to sessions
+
+
+  sessions.controller.rb
+
+
+  go to appl.controller with:u
+
+  def current_user
+  @current_user = User.find(session[:user_id])
+end
+
+def authorize
+if current_user == nil (method/ not instance @)
+  redirect_to '/users/login'
+end
+end
+
+filter in theHomeController

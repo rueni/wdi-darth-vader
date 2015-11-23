@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 20px;
+  margin: 0;
+  line-height: 2rem; }
+  body .wrapper {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-image: url("texture.jpg");
+    background-attachment: fixed; }
+    body .wrapper header, body .wrapper footer {
+      background-color: rgba(0, 0, 0, 0.7);
+      height: 3.5rem;
+      padding-top: 0.6rem;
+      font-family: Verdana;
+      color: white; }
+      body .wrapper header a, body .wrapper footer a {
+        font-size: 2rem;
+        text-decoration: none;
+        color: white;
+        margin: 2.2rem;
+        font-family: Verdana; }
+    body .wrapper .registration {
+      background-image: url("chicago.jpg");
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 5rem;
+      margin: 0 auto;
+      width: 95%; }
+      body .wrapper .registration fieldset {
+        background-color: rgba(255, 255, 255, 0.7);
+        text-align: center;
+        width: 33%;
+        border-radius: 15px;
+        padding: 2rem;
+        margin: 0 auto;
+        border: 0; }
+        body .wrapper .registration fieldset label {
+          color: white;
+          text-align: left;
+          margin: 1rem 0 1rem   0;
+          display: block;
+          clear: both;
+          font-size: 1.4rem;
+          font-weight: bold;
+          font-family: "Verdana", sans-serif; }
+        body .wrapper .registration fieldset input {
+          font-size: 2rem;
+          font-family: Verdana;
+          margin-bottom: 2rem;
+          padding-left: 1rem;
+          width: 100%;
+          height: 50px;
+          border-radius: 10px;
+          border: 0; }
+        body .wrapper .registration fieldset button {
+          box-shadow: 0 3px #6e6e6e;
+          width: 90%;
+          font-family: Verdana;
+          color: #646464;
+          font-size: 2rem;
+          background-color: lightgrey;
+          height: 50px;
+          border: 0;
+          border-radius: 10px; }
+    body .wrapper .design, body .wrapper .content {
+      margin: 5rem auto;
+      width: 95%;
+      background-color: white;
+      padding: 2rem; }
+
+/*# sourceMappingURL=styles.css.map */

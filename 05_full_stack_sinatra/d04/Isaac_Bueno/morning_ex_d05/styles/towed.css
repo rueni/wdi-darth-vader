@@ -1,0 +1,24 @@
+body {
+  margin: auto;
+  width: 75%;
+  border:3px solid black;
+  padding: 10px;
+}
+h1.bigone {
+  font-size: 7rem;
+  padding: 40px;
+  font-family: archivo narrow;
+  color: wheat;
+  margin-left: 85px;
+}
+body {
+  background-image: url("https://download.unsplash.com/photo-1428677361686-f9d23be145c9");
+  background-attachment: fixed;
+  background-size: cover;
+}
+table {
+  color: white;
+}
+td {
+  font-size: 22px;
+}

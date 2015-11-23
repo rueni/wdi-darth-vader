@@ -1,0 +1,13 @@
+<h1>Login</h1>
+
+<% if @message.nil? == false %>
+  <strong><%= @message %></strong>
+<% end %>
+
+<%= form_tag '/sessions/create' do %>
+
+  Email: <%= text_field_tag :email %>
+  Password: <%= password_field_tag :password %>
+  <%= submit_tag 'LOGIN' %>
+
+<% end %>

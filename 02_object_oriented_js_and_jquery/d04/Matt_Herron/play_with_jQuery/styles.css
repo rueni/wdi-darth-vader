@@ -1,0 +1,31 @@
+section {
+  position: relative;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  border: 0;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#one {
+  background-color: green;
+}
+
+#two {
+  background-color: red;
+}
+
+#three {
+  background-color: yellow;
+}
+
+#four {
+  background-color: blue;
+}
+
+.animate {
+  left: 80%;
+}

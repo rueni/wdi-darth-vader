@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SnoopLoops</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+      var snoopTracks = ["What's My Name", "Murder Was The Case", "Lay Low", "Beautiful"];
+
+      for (var i = 0; i < snoopTracks.length; i++) {
+        document.write("<li>" + snoopTracks[i] + "</li>");
+      }
+
+document.write("<br>");
+
+      for (var tracks in snoopTracks) {
+        document.write("<li>" + snoopTracks[tracks] + "</li>");
+      }
+
+document.write("<br>");
+
+var numbers = [];
+for (var i = 0; i < 20; i++) {
+  document.write(numbers.push([i]+1))
+}
+
+document.write("<br>");
+
+var numArray = []
+for (num in numArray) {
+  numArray.push([num])
+}
+
+
+function numArray() {
+for (i = 0; i <= numArray.length; i++) {
+  if ((i % 5 === 0) && (i % 3 === 0)) {
+    document.write("FizzBuzz")
+  } else if (i % 3 === 0) {
+    document.write("FizzBuzz")
+  } else if (i % 5 === 0) {
+    document.write("Fizz")
+  }
+}
+
+numArray()
+
+    </script>
+  </body>
+</html>

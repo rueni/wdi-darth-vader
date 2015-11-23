@@ -1,0 +1,68 @@
+body {
+  font-size: 16px;
+  background-color: purple; }
+
+.wrapper {
+  background-color: white;
+  width: 85%;
+  border-radius: 15px;
+  margin: auto;
+  padding: 1rem; }
+
+.phone {
+  display: none;
+  background-color: magenta; }
+
+.tablet {
+  display: none;
+  background-color: orange; }
+
+.desktop {
+  display: none;
+  background-color: pink; }
+
+@media (min-width: 320px) {
+  .wrapper {
+    width: 85%; }
+
+  .phone {
+    display: block; }
+
+  .tablet {
+    display: none; }
+
+  .desktop {
+    display: none; } }
+@media (min-width: 700px) {
+  .wrapper {
+    width: 90%; }
+
+  .phone {
+    display: none; }
+
+  .tablet {
+    display: block; }
+
+  .desktop {
+    display: none; }
+
+  nav ul {
+    list-style-type: circle; }
+
+  .nav-item {
+    display: inline-block;
+    border-bottom: 1px solid black; } }
+@media (min-width: 960px) {
+  .wrapper {
+    width: 960px; }
+
+  .phone {
+    display: none; }
+
+  .tablet {
+    display: none; }
+
+  .desktop {
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */

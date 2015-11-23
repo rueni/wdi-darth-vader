@@ -1,0 +1,45 @@
+
+
+
+ <h3>Set List</h3>
+<li><a href='/songs/create'>Create Setlist</a></li>
+<table>
+  <thead>
+      <th>
+        track_name
+      </th>
+      <th>
+        bpm
+      </th>
+      <th>
+        length
+      </th>
+      <th>
+        back_track
+      </th>
+      <th>
+        Edit?
+      </th>
+  </thead>
+
+  <tbody>
+      <% @songs.each do |song| %>
+      <tr>
+        <td>
+          <%= song.track_name %>
+        </td>
+        <td>
+          <%= song.bpm %>
+        </td>
+        <td>
+          <%= song.length %>
+        </td>
+        <td>
+          <%= song.back_track %>
+        </td>
+        <td>
+          <a href='/songs/edit/ <%= song.id %>'>Edit</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>

@@ -1,0 +1,21 @@
+<h2>$$$ DA COUPONS $$$$</h2>
+
+<h3><a href='/users/login'>login</a></h3>
+<ul>
+  <li><a href='/coupons/create'>Create Coupon</a></li>
+</ul>
+
+
+	<% @coupons.each do |coupon| %> 
+<ul>
+	<li><%= coupon.title %> </li>
+		<li><%= coupon.description %> </li>
+		<li><%= coupon.product %> </li>
+		<li><%= coupon.discount %> </li>
+		<li><%= coupon.expiration %> </li>
+	
+
+	<li> <a href='/coupons/edit/<%= coupon.id %>'>Edit</a> </li>
+</ul>
+
+<% end %> 

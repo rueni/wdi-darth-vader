@@ -1,0 +1,22 @@
+<h1> Kitten </h1>
+<section></section>
+
+<script>
+	$(document).ready(function() {
+		var s = $('section')[0]; 
+		$.ajax({
+			type: 'get',
+			dataType: 'json',
+			url: '/animal/kitten',
+			success: function(data) {
+				$.each(data, function(key, value) {
+					$(s).append('<li>' + key + ': ' + value + '</li>');
+				});
+			},
+			error: function(err) {
+				console.log(err);
+				$(s).html('ERRAWWWWRRRR'); 
+			}
+		});
+	}); 
+</script>

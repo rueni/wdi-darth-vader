@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>json_test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  </head>
+  <body>
+
+
+<h1>Json Test <h1>
+
+  <h2>Routers and Servers<h2>
+
+  <p>D03 - Sinatra Reps</p>
+
+  <script>
+
+  $(document).ready(function() {
+    var p = $('p');
+    $.ajax( {
+      type: 'get',
+      dataType: 'json',
+      url: '/view',
+      success: function(data) {
+        console.log(data);
+        $(p).html(data.message);
+      },
+
+      error: function(err) {
+        console.log(err);
+        $(p).html('An error occured');
+      }
+
+    });
+
+  });
+
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<h1>Dingo's</h1>
+<section class='dingos'>
+
+</section>
+
+<script>
+  $(document).ready(function() {
+
+    $.ajax ({
+
+      type: 'gets',
+      datatype: 'json',
+      url:  '/api/home_json',
+      success:  function(data) {
+        console.log(data);
+        $('.dingos').html(data)
+
+      },
+      error: function(error) {
+        console.log(error);
+        $('h1').html("an error occured")
+      }
+  });//end of ajax
+
+});//end of document.ready
+
+
+</script>

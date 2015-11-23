@@ -1,0 +1,15 @@
+var dogs = ['a', 'b', 'c','d', 'e'];
+
+var index; //undefined
+
+//FOR-IN/FOREACH
+for (index in dogs) {
+  console.log("my index is..." + index);
+  console.log(dogs[index]);
+  //console.log(dogs[0]);
+}
+
+//FOR
+for(var breed = 0; breed<dogs.length; breed++) {
+  console.log(dogs[breed]);
+}

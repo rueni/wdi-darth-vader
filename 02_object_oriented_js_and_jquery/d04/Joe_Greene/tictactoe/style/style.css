@@ -1,0 +1,19 @@
+button {
+  height: 120px;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 9px;
+  font-size: 90px;
+  color: green;
+  font-family: fantasy;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-style: italic;
+}
+body {
+
+  background-color: lightblue;
+}

@@ -1,0 +1,44 @@
+// Place all the styles related to the flash_cards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.card-container {
+  height: 150px;
+  -webkit-perspective: 600;
+  perspective: 600;
+  position: relative;
+  width: 50%;
+
+}
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s linear;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 3rem;
+  background-color: rgba(255,255,255,1);
+  // border: 1px solid black;
+  text-align: center;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card .side {
+  // display: block;
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.card .back {
+  // display: none;
+  transform: rotateY(180deg);
+}

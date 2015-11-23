@@ -1,0 +1,26 @@
+<h2>Ajax!</h2>
+
+<script>
+
+$(document).ready(function() {
+
+  var p = $('p');
+
+  $.ajax({
+    type: 'get',
+    dataType: 'json',
+    url: '/contact',
+    success: function(data) {
+      console.log(data);
+      $(p).html(data.thanks);
+    },
+    error: function(err) {
+      console.log(err);
+      $(p).html('An error occurred');
+    }
+  });
+
+});
+
+
+</script>

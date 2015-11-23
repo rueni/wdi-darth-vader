@@ -1,0 +1,78 @@
+@import 'variables.scss';
+
+
+// colour variables! :)
+$body-text: black;
+$body-background:black;
+$body-emphasis: navy;
+$body-sub: gray;
+
+// font sizes!
+$base-page-size: 16px;
+
+// target the DOM
+
+body {
+  font-size: $base-page-size;
+  background: $body-background;
+}
+
+#wrapper {
+  width: $wrapper-phone;
+  border-radius: $radius;
+  margin: auto;
+  background: $content-background;
+  padding: $size-1;
+
+}
+
+//display
+#phone{
+  display: none;
+  background: magenta;
+}
+
+#tablet {
+  display: none;
+  background: orange;
+}
+
+#laptop {
+  display: none;
+  background: pink;
+
+}
+
+
+
+///media queries for responsive design
+@media(min-width: $device-phone){
+  #phone {
+    display: block;
+  }
+  @media(min-width: $device-tablet){
+    #phone {
+      display: none;
+  #tablet {
+    display: block;
+
+  .nav-item {
+    display: inline-block;
+    list-style: square;
+    border-bottom: 1px;
+    padding: $font-size-
+  }
+
+
+
+  }
+  @media(min-width: $device-laptop){
+    #phone {
+      display: none;}
+    #tablet {
+      display: none;
+    }
+  #laptop {
+    display: block;
+  }
+}

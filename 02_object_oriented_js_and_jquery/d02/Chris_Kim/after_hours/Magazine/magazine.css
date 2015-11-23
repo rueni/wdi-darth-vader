@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Calibri", "Arial", sans-serif;
+  margin: 0px;
+}
+#wrapper {
+  max-width: 750px;
+  margin: 15px auto;
+}
+.logo {
+  border: 1px solid black;
+  height: 100px;
+  width: 180px;
+  background-color: lightgray;
+  position: relative;
+}
+.T1 {
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 35px;
+  width: 92px;
+  margin-right: 1%;
+  margin-bottom: 20px;
+  float: right;
+}
+.T2 {
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 35px;
+  width: 92px;
+  margin-right: 1%;
+  margin-bottom: 20px;
+  float: right;
+}
+.T3 {
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 35px;
+  width: 92px;
+  margin-right: 1%;
+  margin-bottom: 20px;
+  float: right;
+}
+.T4 {
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 35px;
+  width: 92px;
+  margin-right: 1%;
+  margin-bottom: 20px;
+  float: right;
+}
+.t5 {
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 35px;
+  width: 92px;
+  margin-right: 1%;
+  margin-bottom: 20px;
+  float: right;
+}
+.sidebarLeft {
+  background-color: lightgray;
+  border: 1px solid black;
+  width: 130px;
+  height: 440px;
+  margin-top: 56px;
+  position: relative;
+  float: left;
+}
+.banner {
+  border: 1px solid black;
+  background-color: lightgray;
+  width: 599px;
+  min-height: 110px;
+  margin-bottom: 14px;
+  float: right;
+}
+
+.center {
+  border: 1px solid black;
+  background-color: lightgray;
+  width: 443px;
+  min-height: 170px;
+  margin-left: 22px;
+  margin-bottom: 14px;
+  float: left;
+}
+.sidebarRight {
+  border: 1px solid black;
+  background-color: lightgray;
+  width: 133px;
+  height: 170px;
+  margin-bottom: 14px;
+  float: right;
+}
+.B1 {
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 132px;
+  width: 132px;
+  margin-left: 23px;
+  margin-bottom: 20px;
+  float: right;
+}
+.B2 {
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 132px;
+  width: 132px;
+  margin-left: 23px;
+  margin-bottom: 20px;
+  float: right;
+}
+.B3 {
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 132px;
+  width: 132px;
+  margin-left: 23px;
+  margin-bottom: 20px;
+  float: right;
+}
+.B4 {
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 132px;
+  width: 132px;
+  margin-left: 23px;
+  margin-bottom: 20px;
+  float: right;
+}
+footer {
+  clear: right;
+  background-color: lightgray;
+  min-height: 120px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}

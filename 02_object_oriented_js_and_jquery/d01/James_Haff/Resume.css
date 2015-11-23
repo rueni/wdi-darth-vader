@@ -1,0 +1,57 @@
+body {
+  font-family: 'Muli', sans-serif;
+  margin:  0px;
+}
+
+#wrapper {
+  width:  90%;
+  margin:  15px auto;
+}
+
+header {
+  border:  3px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+}
+
+nav  {
+  border:  3px solid yellow;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+}
+
+.menu ul {
+  padding:  0px;
+}
+
+.menu li  {
+  display: inline-block;
+  list-style: none;
+}
+aside  {
+  border:  3px solid purple;
+  width:  40%;
+  margin-left: auto;
+  margin-right: auto;
+  float:  right;
+}
+
+section  {
+  border:  3px solid red;
+  width:  50%;
+  margin-left: auto;
+  margin-right: auto;
+  float:  left;
+}
+
+footer  {
+  clear:  both;
+  border:  3px solid lightblue;
+  margin-left: auto;
+  margin-right: auto;
+
+}

@@ -1,0 +1,109 @@
+body {
+
+   margin:  0px;
+}
+
+#wrapper {
+  max-width: 900px;
+  margin:  15px auto;
+}
+
+header {
+  border:  3px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  text-align: center;;
+  background-color: rgba(171, 255, 124, 0.6);
+
+}
+
+#to-doitems{
+  border:  3px solid rgb(242, 242, 235);
+  width:  20%;
+  font-family: 'Architects Daughter', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  float:  left;
+  margin-top: 10px;
+  word-wrap: break-word;
+  background-color: #F2F2EB;
+  height: 400px;
+  }
+
+ h4 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+ h2  {
+   text-decoration: underline;
+ }
+#submitform{
+    border:  3px solid rgb(237, 237, 227);
+    background-color: #F2F2EB;
+    width:  20%;
+    height:  400px;
+    margin-left: auto;
+    margin-right: auto;
+    float:  right;
+    margin-top: 10px;
+    font-family:  'Architects Daughter', cursive;
+
+    }
+
+  section  {
+    border:  3px solid rgba(255, 205, 138, 1);
+    background-color: rgba(255, 205, 138, 1);
+    width:  55%;
+    margin-left: auto;
+    margin-right: auto;
+    height:  400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+
+ section p {
+   border-radius: 20px;
+   padding-top: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+   word-wrap: break-word;
+ }
+
+  footer {
+    clear:  both;
+    border:  3px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    height:  20px;
+    margin-top: 10px;
+    text-align: center;
+
+  }
+
+
+  button {
+    height: 30px;
+    border-radius: 2px;
+    border: 0;
+    font-size: 1rem;
+    background-color: rgba(255, 205,138, 0.6);
+    box-shadow: 0 4px 0px -1px rgba(70, 70, 70 ,0.75);
+  }
+
+  input {
+
+    border:  3px solid black;
+    font-size: 0.5rem;
+    height: 20px;
+    border: none;
+    width: 150px;
+
+  }

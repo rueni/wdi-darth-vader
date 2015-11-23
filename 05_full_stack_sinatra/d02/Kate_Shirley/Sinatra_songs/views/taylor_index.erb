@@ -1,0 +1,8 @@
+<h3>The Top 4 Taylor Swift Videos on Youtube</h3>
+<ul>
+<% @taylors.each do |taylor| %>
+
+<li><%= taylor.title %> was released in <%= taylor.release_year %>. The video features <%= taylor.video_theme %>.
+</li>
+</ul>
+<% end %>

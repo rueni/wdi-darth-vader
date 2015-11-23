@@ -1,0 +1,35 @@
+CREATE TABLE students (id SERIAL PRIMARY KEY, name varchar(255),email String);
+
+INSERT INTO students (name, email)
+VALUES
+('Joseph', 'jggreene@gmail.com')
+
+SELECT * FROM students;
+
+INSERT INTO students (name, email)
+VALUES
+('Isaac', 'isaacmabueno@gmail.com');
+
+
+INSERT INTO students (name, email)
+VALUES
+('David','davidhayes.us');
+
+
+INSERT INTO students (name, email)
+VALUES
+('James', 'jamest@ga.co')
+
+#1 create database
+step1) CREATE DATABASE todo_items;
+
+#2 connect to database
+\c todo_items
+
+#3create table
+
+CREATE TABLE todo_list (id SERIAL PRIMARY KEY,
+name varchar(255), description varchar(255));
+
+
+look at Postgres website

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movies Database</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/skeleton.css">
+  </head>
+  <body>
+    <header class="row">
+      <div class="offset-by-one two columns">
+        <h1>IDHM</h1>
+      </div>
+
+      <nav class="offset-by-four five columns">
+        <a href="/">Home</a>
+        <a href="/movies">Movies</a>
+        <a href="/movies/create">Add A Movie</a>
+        <% if session[:current_user].nil? %>
+          <a href="/users/login">Sign In</a>
+          <a href="/users/register">Sign Up</a>
+        <% else %>
+          <span class="currentuser"><%= current_user %> | </span><a href="/users/logout">Sign Out</a>
+        <% end %>
+
+      </nav>
+    </header>
+    <hr>
+    <section class="row">
+      <div class="offset-by-three six columns">
+
+    <%= yield %>
+
+    </div>
+
+    </section>
+    <hr>
+    <footer>&copy; 2015 The International Database of Horrible Movies.</footer>
+  </body>
+</html>

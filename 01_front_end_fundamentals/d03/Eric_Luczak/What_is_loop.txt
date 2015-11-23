@@ -1,0 +1,1 @@
+A loop is a process that needs to be repeated for some amount of iterations. This can be strictly for each index in an array, or any number of different conditions that need to be evaluated. I feel a lot of stuff can be done with loops, like changing data types, converting data, etc. 

@@ -1,0 +1,51 @@
+body {
+  background-color: grey
+}
+
+
+
+#one {
+  width: 500px;
+  height: 150px;
+  background-color: lightgreen;
+  margin: 20px;
+  display: none;
+  float: left;
+  text-align: center;
+}
+#two {
+  width: 500px;
+  height: 150px;
+  background-color: lightgreen;
+  margin: 20px;
+  float: right;
+  text-align: center;
+}
+#three {
+  width: 500px;
+  height: 150px;
+  background-color: lightgreen;
+  margin: 20px;
+  display: none;
+  float: right;
+  text-align: center;
+}
+#four {
+  width: 500px;
+  height: 150px;
+  background-color: lightgreen;
+  margin: 20px;
+  display: none;
+  float: left;
+  text-align: center;
+}
+
+#tim {
+  width: 500px;
+  height: 150px;
+  background-image: url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALkAAAAJDcyMWRlOGQyLWM2N2ItNGU3NC04YjY4LTMxMWFjYmYxNjc5OQ.jpg')
+  margin: 20px;
+  display:none;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+header {
+  width: 100%;
+}
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+}
+li {
+  display: inline;
+}
+hr {
+  width: 100%;
+}
+
+
+
+
+footer {
+  width: 100%;
+}

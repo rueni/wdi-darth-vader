@@ -1,0 +1,11 @@
+<h1> Edit songs ID #1</h1>
+<form action="/songs/edit" method="post">
+  <input type="hidden" name="id" value="<%= @song.id %>">
+  <input type="text" name="title" value="@song.track_name">
+  <input type="text" name="description" value="@song.bpm">
+  <input type="text" name="product" value="@song.length">
+  <input type="text" name="discount" value="@song.back_track">
+
+  <input type="submit" value="Edit Songs">
+
+</form>

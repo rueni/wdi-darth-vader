@@ -1,0 +1,15 @@
+<h1>Sigup</h1>
+
+<% if @message.nil? == false %>
+<strong><%= @message %></strong>
+<% end %>
+
+<%= form_for :user, url: '/users/create' do |f| %>
+
+  Name: <%= f.text_field :name %>
+  Email: <%= f.text_field :email %>
+  Password: <%= f.password_field :password %>
+  Confirm Password: <%= f.password_field :password_confirmation %>
+  <%= f.submit 'REGISTER' %>
+
+  <% end %>

@@ -1,0 +1,33 @@
+<h1>Index</h1>
+
+
+  <% @array_one.each do |item| %>
+    <ul>
+      <li><%= item %></li>
+    </ul>
+  <% end %>
+
+
+    <table>
+      <thead>
+        <th>Item Description</th>
+      </thead>
+      <tbody>
+        <% @array_two.each do |item| %>
+        <tr>
+        <td><%= item %></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+
+    <% @array_one.each do |item| %>
+      <section>
+        <article>
+          <p>
+            <%= item %>
+          </p>
+        </article>
+      </section>
+    <% end %>

@@ -1,0 +1,70 @@
+<div>
+</div>
+
+
+<script>
+$(document).ready(function() {
+
+$.ajax({
+  method: 'get',
+  url: '/ralph',
+  dataType: 'json',
+  success: function(data) {
+    console.log(data.name);
+    $('div').append('<ul><li>Name:' + data.name + '</li><li>Cuteness:' + data.cuteness + '</li><li>Habitat:' + data.habitat + '</li><li><img src="' + data.picture_url + '"></img></li><li>Description:' + data.description + '</li></ul>')
+  },
+  error: function(err) {
+    console.log(err)
+  }
+});
+$.ajax({
+  method: 'get',
+  url: '/bobby',
+  dataType: 'json',
+  success: function(data) {
+    console.log(data.name);
+    $('div').append('<ul><li>Name:' + data.name + '</li><li>Cuteness:' + data.cuteness + '</li><li>Habitat:' + data.habitat + '</li><li><img src="' + data.picture_url + '"></img></li><li>Description:' + data.description + '</li></ul>')
+  },
+  error: function(err) {
+    console.log(err)
+  }
+});
+$.ajax({
+  method: 'get',
+  url: '/ricky',
+  dataType: 'json',
+  success: function(data) {
+    console.log(data.name);
+    $('div').append('<ul><li>Name:' + data.name + '</li><li>Cuteness:' + data.cuteness + '</li><li>Habitat:' + data.habitat + '</li><img src="' + data.picture_url + '"></img></li><li>Description:' + data.description + '</li></ul>')
+  },
+  error: function(err) {
+    console.log(err)
+  }
+});
+$.ajax({
+  method: 'get',
+  url: '/mike',
+  dataType: 'json',
+  success: function(data) {
+    console.log(data.name);
+    $('div').append('<ul><li>Name:' + data.name + '</li><li>Cuteness:' + data.cuteness + '</li><li>Habitat:' + data.habitat + '</li><img src="' + data.picture_url + '"></img></li><li>Description:' + data.description + '</li></ul>')
+  },
+  error: function(err) {
+    console.log(err)
+  }
+});
+$.ajax({
+  method: 'get',
+  url: '/ron',
+  dataType: 'json',
+  success: function(data) {
+    console.log(data.name);
+    $('div').append('<ul><li>Name:' + data.name + '</li><li>Cuteness:' + data.cuteness + '</li><li>Habitat:' + data.habitat + '</li><img src="' + data.picture_url + '"></img></li><li>Description:' + data.description + '</li></ul>')
+  },
+  error: function(err) {
+    console.log(err)
+  }
+});
+
+});
+</script>

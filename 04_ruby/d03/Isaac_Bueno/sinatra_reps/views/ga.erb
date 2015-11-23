@@ -1,0 +1,20 @@
+<h5> This thing makes a LITTLE more sense</h5>
+<script>
+
+$(document).ready(function)({
+  var p = $('p');
+  $.ajax({
+    type: 'GET',
+    dataType: 'JSON',
+    url: '/about',
+    success: function(data) {
+      console.log(data);
+      $(p).html(data.message);
+    },
+    error: function (err) {
+      console.log(err);
+      $(p).html('An error occured');
+    }
+  });
+});
+</script>

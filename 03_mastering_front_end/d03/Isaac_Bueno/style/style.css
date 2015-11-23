@@ -1,0 +1,59 @@
+body {
+  font-size: 16px;
+  background: darkgreen;
+  margin: 0; }
+
+#wrapper {
+  width: 85%;
+  margin: auto;
+  border-radius: 15px;
+  background: white;
+  padding: 1rem; }
+
+#phone {
+  display: none;
+  background: magenta; }
+
+#tablet {
+  display: none;
+  background: lime; }
+
+#laptop {
+  display: none;
+  background: orange; }
+
+@media (min-width: 320px) {
+  #wrapper {
+    width: 85%; }
+
+  #phone {
+    display: block; } }
+@media (min-width: 700px) {
+  #wrapper {
+    width: 90%; }
+
+  #phone {
+    display: none; }
+
+  #tablet {
+    display: block; }
+
+  .nav-item {
+    display: inline-block;
+    list-style: square;
+    border-bottom: 1px;
+    padding: 1rem; } }
+@media (min-width: 1200px) {
+  #wrapper {
+    width: 960px; }
+
+  #phone {
+    display: none; }
+
+  #tablet {
+    display: none; }
+
+  #laptop {
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */

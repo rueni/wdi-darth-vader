@@ -1,0 +1,49 @@
+
+<h2>Here is my awesome movie table!!!</h2>
+
+
+<ul>
+  <li><a href="/movies/create">Create new Movie</a></li>
+</ul>
+
+<table>
+  <thead>
+    <td>
+      Id
+    </td>
+    <td>
+      Title
+    </td>
+    <td>
+      Director
+    </td>
+    <td>
+      Year Released
+    </td>
+    <td>
+      Edit
+    </td>
+  </thead>
+  <tbody>
+
+    <% @movies.each do |movie| %>
+      <tr>
+        <td>
+          <%= movie.id %>
+        </td>
+        <td>
+          <%= movie.title %>
+        </td>
+        <td>
+          <%= movie.director %>
+        </td>
+        <td>
+          <%= movie.date_released %>
+        </td>
+        <td>
+          <a href="/movies/edit/<%= movie.id %>">Edit?</a>
+      </tr>
+    <% end %>
+
+  </tbody>
+</table>

@@ -1,0 +1,82 @@
+$font-default-height: 16px;
+$font-form: 1.5rem; 
+$font-footer: 2.5rem; 
+$font-stack: Verdana, sans-serif; 
+$font-primary-color: hsl(195, 11%, 29%); 
+$form-background-color: hsla(0, 0%, 100%, 0.5);
+$form-focus-color: hsl(60, 73%, 84%);
+$form-submit-color: hsl(196, 11%, 41%); 
+$background: 'https://unsplash.imgix.net/photo-1433840496881-cbd845929862?dpr=2&fit=crop&fm=jpg&q=75&w=1050';
+
+html {
+	background: url($background) no-repeat center center fixed; 
+}
+body {
+	font-family: $font-stack;  
+	color: $font-primary-color; 
+}
+
+ul {
+	background-color: hsla(0, 0%, 8%, 0.5);
+	li {
+		display: inline; 
+		padding: 5px;
+		a {
+			color: white; 
+			text-decoration: none; 
+		}
+	}
+
+
+	li:first-child {
+		margin-left: 2%; 
+	}
+
+}
+section {
+	margin: 5% auto;
+	text-align: center;
+}
+
+article {
+	background-color: hsla(0, 0%, 100%, 0.9);
+	margin-top: 5%;
+	text-align: left;
+	padding: 3%;
+	line-height: 1.5;
+	h2 {
+		text-align: center;
+	}
+}
+form {
+	margin: 0 auto;
+	width: 20%;
+	text-align: center;
+	background-color: $form-background-color; 
+	border-radius: 10px;
+	font-size: $font-form; 
+	padding: 20px;
+}
+
+input {
+	transition: padding 1s;
+}
+input:focus {
+	background-color: $form-focus-color; 
+	padding: 18px;
+}
+
+button[type="submit"] {
+	background-color: $form-submit-color;
+	border-radius: 10px; 
+	border: 1px solid black; 
+	min-width: 200px;
+	color: white; 
+}
+
+footer {
+	background-color: hsla(0, 0%, 8%, 0.5);
+	color: hsl(0, 0%, 100%);
+	font-size: $font-footer; 
+	text-align: center;
+}

@@ -1,0 +1,11 @@
+body {
+  font-family: arial,sans-serif;
+  font-size: 16px; }
+  body .uno {
+    background-color: blue; }
+  body .dos {
+    background-color: red; }
+  body .tres {
+    background-color: green; }
+
+/*# sourceMappingURL=styles.css.map */

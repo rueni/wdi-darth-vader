@@ -1,0 +1,11 @@
+<h1>Add Flash Card</h1>
+
+<%= form_for @flashcards, url: {action: 'create'} do |f| %>
+
+  Question: <%= f.text_field :question %>
+  Answer: <%= f.text_field :answer %>
+  <%= f.submit 'Add Flash Card' %>
+
+<% end %>
+
+<a href="/"><button type="button">RETURN TO INDEX</button></a>

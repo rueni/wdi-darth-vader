@@ -1,0 +1,59 @@
+body {
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+  background-color: orange;
+}
+
+input {
+  border-radius: 10px;
+  background-color: orange;
+}
+header {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.arrested {
+  text-align: center;
+}
+
+.arresteddev {
+  margin-left: 300px;
+
+}
+
+.arrestedgob {
+  margin-left: 375px;
+}
+
+.navbar {
+text-align: center;
+list-style-type: none;
+}
+.infonav {
+list-style-type: none;
+text-align: center;
+}
+
+.nameofco {
+  font-size: 100px;
+  margin-bottom:0;
+  margin-top:40px;
+}
+
+.mainphoto {
+  width:60%;
+  margin-left: 250px;
+}
+
+.contactus {
+  text-align: center;
+  margin-bottom: 15px;
+}

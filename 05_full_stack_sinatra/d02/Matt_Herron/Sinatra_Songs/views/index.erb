@@ -1,0 +1,42 @@
+<h3>All of the Hottest Songs of the Day!</h3>
+
+<table>
+<thead>
+  <tr>
+    <th>
+      Song Title
+    </th>
+    <th>
+      Artist
+    </th>
+    <th>
+      Release Date
+    </th>
+    <th>
+      Song Length
+    </th>
+  </tr>
+</thead>
+<tbody>
+<% @songs.each do |song| %>
+<tr>
+  <td>
+    <!--title -->
+    <%= song.title %>
+  </td>
+  <td>
+    <!-- artist -->
+    <%= song.artist %>
+  </td>
+  <td>
+    <!-- release_date -->
+    <%= song.release_date %>
+  </td>
+  <td>
+    <!-- length -->
+    <%= song.length %>
+  </td>
+</tr>
+<% end %>
+</tbody>
+</table>

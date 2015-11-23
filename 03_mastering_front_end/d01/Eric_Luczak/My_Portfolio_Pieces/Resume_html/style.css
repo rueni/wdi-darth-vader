@@ -1,0 +1,87 @@
+/* Wireframing CSS */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  width: 8.5in;
+  height: 11in;
+}
+aside {
+  width: 30%;
+  height: 100%;
+  float:left;
+}
+
+.aside_box {
+  width: 85%;
+  height: 33.3333%;
+  padding: 10% 0;
+  margin: auto;
+  border-top: 1px solid black;
+}
+
+#aside_top {
+  border-top: none;
+}
+
+#aside_top_logo {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.aside_small_logo {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+#main_wrapper {
+  width: 70%;
+  height: 100%;
+  float: right;
+}
+
+.section_header {
+  width: 100%;
+  height: 15%;
+}
+
+header {
+  width: 90%;
+  height: 24%;
+  margin: 0 auto;
+  border-bottom: 3px black solid;
+}
+
+section {
+  width: 90%;
+  height: 61%;
+  margin: 1% auto;
+  border-bottom: 1px black solid;
+}
+
+footer {
+  width: 100%;
+  height: 14%;
+
+}
+
+
+/* Colors and Typography */
+aside {
+  background-color: rgb(212, 231, 230);
+}
+
+footer {
+  background-color: rgb(243, 242, 237);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

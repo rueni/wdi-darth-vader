@@ -1,0 +1,31 @@
+nav {
+  margin-top: 20px; }
+
+nav a {
+  font-size: 2rem;
+  margin-right: 3.3rem;
+  text-decoration: none; }
+
+hr {
+  margin: 0; }
+
+.fields, textarea, select {
+  width: 80%; }
+
+textarea {
+  height: 300px; }
+
+footer {
+  text-align: center; }
+
+.deletebutton {
+  margin: 0; }
+
+.error {
+  color: red;
+  font-size: 3rem; }
+
+.currentuser {
+  font-size: 2rem; }
+
+/*# sourceMappingURL=styles.css.map */
