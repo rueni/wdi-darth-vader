@@ -8,6 +8,7 @@
 *If you're interested in creating and/or editing a file, please use the wiki template and submit a pull request with your changes! Your instructors will accept the pull request when time is available.*
 
 **Your Instructors & Office Hours**
+
 <table>
   <tr>
     <td><img src="https://avatars2.githubusercontent.com/u/1757078?v=3&amp;s=460" width="40%" height="25%">
